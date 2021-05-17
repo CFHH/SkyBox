@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F0065E64-0358-4997-9F0E-476719CFD242}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealLaunchDaemon</RootNamespace>
+    <PlatformToolset>v141</PlatformToolset>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Target.cs"/>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Build.cs"/>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.tps"/>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.uproject"/>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Build\IOS\UnrealLaunchDaemon-Info.plist"/>
+    <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.cpp"/>
+    <ClInclude Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\LaunchDaemonMessageHandler.h"/>
+    <ClInclude Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemon.h"/>
+    <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.cpp"/>
+    <ClInclude Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\UnrealLaunchDaemonApp.h"/>
+    <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonAppMain.cpp"/>
+    <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.cpp"/>
+    <ClInclude Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private\IOS\IOSLaunchDaemonView.h"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ENABLE_PGO_PROFILE=0;USE_VORBIS_FOR_STREAMING=1;USE_XMA2_FOR_STREAMING=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_APPLICATION_CORE=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_ACCESSIBILITY=1;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_LIVE_CODING=0;WITH_XGE_CONTROLLER=0;UBT_MODULE_MANIFEST="UnrealLaunchDaemon.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UnrealLaunchDaemon-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;UE_APP_NAME="UnrealLaunchDaemon";NDIS_MINIPORT_MAJOR_VERSION=0;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;OVERRIDE_PLATFORM_HEADER_NAME=Windows;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_IS_ENGINE_MODULE=0;WIN10_SDK_VERSION=17763;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;UE_DEPRECATED_FORGAME=UE_DEPRECATED;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_VTABLE=;CORE_API=;TRACELOG_VTABLE=;TRACELOG_API=;APPLICATIONCORE_VTABLE=;APPLICATIONCORE_API=;RHI_VTABLE=;RHI_API=;ENABLE_HTTP_FOR_NF=0;NETWORKFILE_VTABLE=;NETWORKFILE_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_VTABLE=;PROJECTS_API=;JSON_VTABLE=;JSON_API=;STREAMINGFILE_VTABLE=;STREAMINGFILE_API=;SOCKETS_PACKAGE=1;SOCKETS_VTABLE=;SOCKETS_API=;SLATE_VTABLE=;SLATE_API=;COREUOBJECT_VTABLE=;COREUOBJECT_API=;INPUTCORE_VTABLE=;INPUTCORE_API=;WITH_FREETYPE=1;SLATECORE_VTABLE=;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_VTABLE=;IMAGEWRAPPER_API=;EDITORSTYLE_VTABLE=;EDITORSTYLE_API=;STANDALONERENDERER_VTABLE=;STANDALONERENDERER_API=;LAUNCHDAEMONMESSAGES_VTABLE=;LAUNCHDAEMONMESSAGES_API=;MESSAGING_VTABLE=;MESSAGING_API=;WITH_TARGETPLATFORM_SUPPORT=0;UDPMESSAGING_VTABLE=;UDPMESSAGING_API=;UNREALLAUNCHDAEMON_VTABLE=;UNREALLAUNCHDAEMON_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);G:\UnrealEngine-4.23.1-ps\Engine\Source;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Private;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS\UnrealLaunchDaemon\Private;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Core;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\TraceLog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\ApplicationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\RHI;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\NetworkFile;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\UObject;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkFile\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Projects;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Json;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\StreamingFile;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\StreamingFile\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Sockets;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Sockets\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Slate;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\CoreUObject;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\InputCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\SlateCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\ImageWrapper;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\EditorStyle;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\StandaloneRenderer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\StandaloneRenderer\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\LaunchDaemonMessages;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\IOS;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\Messaging;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Messaging\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\UdpMessaging;G:\UnrealEngine-4.23.1-ps\Engine\Plugins\Messaging\UdpMessaging\Source;G:\UnrealEngine-4.23.1-ps\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealLaunchDaemon\Inc\UnrealLaunchDaemon;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\IOS;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

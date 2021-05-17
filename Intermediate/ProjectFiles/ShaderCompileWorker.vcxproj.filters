@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{A28BBEDA-E0EF-40E9-81BD-D4045D406005}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{9EB4C394-0348-484C-8B6D-AB455B92B982}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{0E339141-171D-41D0-9C38-CC16F7104C8C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

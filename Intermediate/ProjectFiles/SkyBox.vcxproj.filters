@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SkyBox.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D5098AFE-F6E3-47D9-947F-6B55EA7816B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SkyBox.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SkyBoxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F0EF40B6-0A8B-4254-87A8-D0F9DE10299F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SkyBox">
+      <UniqueIdentifier>{FB228A8D-D3FE-4CD5-ACD8-77064F1899A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SkyBox\SkyBox.Build.cs">
+      <Filter>Source\SkyBox</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBox.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBox.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxCharacter.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxCharacter.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxGameMode.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxGameMode.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxHUD.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxHUD.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxProjectile.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxProjectile.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
