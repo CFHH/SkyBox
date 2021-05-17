@@ -1,11 +1,12 @@
 .vs/
 Binaries/
-Build/
+#Build/
 Content/Collections/
 Content/Developers/
 Content/StarterContent/
 DerivedDataCache/
 Intermediate/AssetRegistryCache/
+#这个不能忽略 Intermediate/Build/BuildRules/
 Intermediate/Build/Unused/
 Intermediate/Build/Win64/
 Intermediate/Config/
@@ -16,3 +17,4 @@ Saved/
 
 *.bin
 *.vcxproj.user
+*.log
