@@ -65,5 +65,44 @@
     <ClInclude Include="..\..\Source\SkyBox\SkyBoxProjectile.h">
       <Filter>Source\SkyBox</Filter>
     </ClInclude>
+    <None Include="..\..\Source\SkyBox\protos\genproto.bat">
+      <Filter>Source\SkyBox\protos</Filter>
+    </None>
+    <None Include="..\..\Source\SkyBox\protos\skybox.proto">
+      <Filter>Source\SkyBox\protos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\SkyBox\protos">
+      <UniqueIdentifier>{36ea1c0d-205d-4ffa-8623-8af341a86414}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.cc">
+      <Filter>Source\SkyBox\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SkyBox\protos\skybox.pb.cc">
+      <Filter>Source\SkyBox\protos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxRPC.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxWorker.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.h">
+      <Filter>Source\SkyBox\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.pb.h">
+      <Filter>Source\SkyBox\protos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxRPC.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxWorker.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

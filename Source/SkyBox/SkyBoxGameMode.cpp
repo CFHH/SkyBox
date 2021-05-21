@@ -4,6 +4,7 @@
 #include "SkyBoxHUD.h"
 #include "SkyBoxCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "SkyBoxWorker.h"
 
 ASkyBoxGameMode::ASkyBoxGameMode()
 	: Super()
@@ -14,4 +15,17 @@ ASkyBoxGameMode::ASkyBoxGameMode()
 
 	// use our custom HUD class
 	HUDClass = ASkyBoxHUD::StaticClass();
+}
+
+ASkyBoxGameMode::~ASkyBoxGameMode()
+{
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxGameMode::~ASkyBoxGameMode()"));
+    SkyBoxWorker::Shutdown();
+}
+
+void ASkyBoxGameMode::StartPlay()
+{
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxGameMode::StartPlay()"));
+    Super::StartPlay();
+    SkyBoxWorker::StartUp();
 }

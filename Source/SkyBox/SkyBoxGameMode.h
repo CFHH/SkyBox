@@ -13,6 +13,8 @@ class ASkyBoxGameMode : public AGameModeBase
 
 public:
 	ASkyBoxGameMode();
+    virtual ~ASkyBoxGameMode();
+    virtual void StartPlay() override;
 };
 
 
