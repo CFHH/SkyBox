@@ -90,14 +90,16 @@ PROTOBUF_NAMESPACE_CLOSE
 namespace skybox {
 
 enum JobStatus : int {
-  Success = 0,
-  Fail = 1,
+  Succeeded = 0,
+  Failed = 1,
+  Waiting = 2,
+  Working = 3,
   JobStatus_INT_MIN_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::min(),
   JobStatus_INT_MAX_SENTINEL_DO_NOT_USE_ = std::numeric_limits<::PROTOBUF_NAMESPACE_ID::int32>::max()
 };
 bool JobStatus_IsValid(int value);
-constexpr JobStatus JobStatus_MIN = Success;
-constexpr JobStatus JobStatus_MAX = Fail;
+constexpr JobStatus JobStatus_MIN = Succeeded;
+constexpr JobStatus JobStatus_MAX = Working;
 constexpr int JobStatus_ARRAYSIZE = JobStatus_MAX + 1;
 
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* JobStatus_descriptor();
@@ -519,6 +521,7 @@ class Point PROTOBUF_FINAL :
   enum : int {
     kXFieldNumber = 1,
     kYFieldNumber = 2,
+    kZFieldNumber = 3,
   };
   // float x = 1;
   void clear_x();
@@ -538,6 +541,15 @@ class Point PROTOBUF_FINAL :
   void _internal_set_y(float value);
   public:
 
+  // float z = 3;
+  void clear_z();
+  float z() const;
+  void set_z(float value);
+  private:
+  float _internal_z() const;
+  void _internal_set_z(float value);
+  public:
+
   // @@protoc_insertion_point(class_scope:skybox.Point)
  private:
   class _Internal;
@@ -547,6 +559,7 @@ class Point PROTOBUF_FINAL :
   typedef void DestructorSkippable_;
   float x_;
   float y_;
+  float z_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_skybox_2eproto;
 };
@@ -1097,13 +1110,13 @@ class QueryJobReply PROTOBUF_FINAL :
   void _internal_set_job_id(::PROTOBUF_NAMESPACE_ID::int32 value);
   public:
 
-  // int32 job_status = 2;
+  // .skybox.JobStatus job_status = 2;
   void clear_job_status();
-  ::PROTOBUF_NAMESPACE_ID::int32 job_status() const;
-  void set_job_status(::PROTOBUF_NAMESPACE_ID::int32 value);
+  ::skybox::JobStatus job_status() const;
+  void set_job_status(::skybox::JobStatus value);
   private:
-  ::PROTOBUF_NAMESPACE_ID::int32 _internal_job_status() const;
-  void _internal_set_job_status(::PROTOBUF_NAMESPACE_ID::int32 value);
+  ::skybox::JobStatus _internal_job_status() const;
+  void _internal_set_job_status(::skybox::JobStatus value);
   public:
 
   // @@protoc_insertion_point(class_scope:skybox.QueryJobReply)
@@ -1114,7 +1127,7 @@ class QueryJobReply PROTOBUF_FINAL :
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
   ::PROTOBUF_NAMESPACE_ID::int32 job_id_;
-  ::PROTOBUF_NAMESPACE_ID::int32 job_status_;
+  int job_status_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_skybox_2eproto;
 };
@@ -1299,6 +1312,26 @@ inline void Point::set_y(float value) {
   // @@protoc_insertion_point(field_set:skybox.Point.y)
 }
 
+// float z = 3;
+inline void Point::clear_z() {
+  z_ = 0;
+}
+inline float Point::_internal_z() const {
+  return z_;
+}
+inline float Point::z() const {
+  // @@protoc_insertion_point(field_get:skybox.Point.z)
+  return _internal_z();
+}
+inline void Point::_internal_set_z(float value) {
+  
+  z_ = value;
+}
+inline void Point::set_z(float value) {
+  _internal_set_z(value);
+  // @@protoc_insertion_point(field_set:skybox.Point.z)
+}
+
 // -------------------------------------------------------------------
 
 // GenerateSkyBoxRequest
@@ -1458,22 +1491,22 @@ inline void QueryJobReply::set_job_id(::PROTOBUF_NAMESPACE_ID::int32 value) {
   // @@protoc_insertion_point(field_set:skybox.QueryJobReply.job_id)
 }
 
-// int32 job_status = 2;
+// .skybox.JobStatus job_status = 2;
 inline void QueryJobReply::clear_job_status() {
   job_status_ = 0;
 }
-inline ::PROTOBUF_NAMESPACE_ID::int32 QueryJobReply::_internal_job_status() const {
-  return job_status_;
+inline ::skybox::JobStatus QueryJobReply::_internal_job_status() const {
+  return static_cast< ::skybox::JobStatus >(job_status_);
 }
-inline ::PROTOBUF_NAMESPACE_ID::int32 QueryJobReply::job_status() const {
+inline ::skybox::JobStatus QueryJobReply::job_status() const {
   // @@protoc_insertion_point(field_get:skybox.QueryJobReply.job_status)
   return _internal_job_status();
 }
-inline void QueryJobReply::_internal_set_job_status(::PROTOBUF_NAMESPACE_ID::int32 value) {
+inline void QueryJobReply::_internal_set_job_status(::skybox::JobStatus value) {
   
   job_status_ = value;
 }
-inline void QueryJobReply::set_job_status(::PROTOBUF_NAMESPACE_ID::int32 value) {
+inline void QueryJobReply::set_job_status(::skybox::JobStatus value) {
   _internal_set_job_status(value);
   // @@protoc_insertion_point(field_set:skybox.QueryJobReply.job_status)
 }

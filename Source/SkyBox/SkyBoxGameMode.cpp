@@ -4,7 +4,7 @@
 #include "SkyBoxHUD.h"
 #include "SkyBoxCharacter.h"
 #include "UObject/ConstructorHelpers.h"
-#include "SkyBoxWorker.h"
+//#include "SkyBoxWorker.h"
 
 ASkyBoxGameMode::ASkyBoxGameMode()
 	: Super()
@@ -20,12 +20,12 @@ ASkyBoxGameMode::ASkyBoxGameMode()
 ASkyBoxGameMode::~ASkyBoxGameMode()
 {
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxGameMode::~ASkyBoxGameMode()"));
-    SkyBoxWorker::Shutdown();
+    //SkyBoxWorker::Shutdown();
 }
 
 void ASkyBoxGameMode::StartPlay()
 {
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxGameMode::StartPlay()"));
     Super::StartPlay();
-    SkyBoxWorker::StartUp();
+    //SkyBoxWorker::StartUp();
 }

@@ -7,6 +7,7 @@
 #include "SkyBoxCharacter.generated.h"
 
 class UInputComponent;
+class SkyBoxJob;
 
 UCLASS(config=Game)
 class ASkyBoxCharacter : public ACharacter
@@ -149,15 +150,18 @@ public:
 private:
     void OnBackBufferReady_RenderThread(SWindow& SlateWindow, const FTexture2DRHIRef& BackBuffer);
     void CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer);
-    void SavePNGToFile();
+    bool SavePNGToFile();
     TArray<FRotator> m_SixDirection;
     enum CaptureState
     {
         Invalid = 0,
+        Waiting1,
         Prepared,
         Captured,
         Saved,
     };
+    FCriticalSection m_lock;
+    SkyBoxJob* m_current_job;
     int32 m_CurrentDirection;
     CaptureState m_CurrentState;
     TArray<FColor> m_BackBufferData;

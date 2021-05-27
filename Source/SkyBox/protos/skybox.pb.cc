@@ -52,7 +52,8 @@ PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT HelloReplyDefaultTypeInternal _
 constexpr Point::Point(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
   : x_(0)
-  , y_(0){}
+  , y_(0)
+  , z_(0){}
 struct PointDefaultTypeInternal {
   constexpr PointDefaultTypeInternal()
     : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
@@ -101,7 +102,8 @@ PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT QueryJobRequestDefaultTypeInter
 constexpr QueryJobReply::QueryJobReply(
   ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized)
   : job_id_(0)
-  , job_status_(0){}
+  , job_status_(0)
+{}
 struct QueryJobReplyDefaultTypeInternal {
   constexpr QueryJobReplyDefaultTypeInternal()
     : _instance(::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized{}) {}
@@ -136,6 +138,7 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_skybox_2eproto::offsets[] PROT
   ~0u,  // no _weak_field_map_
   PROTOBUF_FIELD_OFFSET(::skybox::Point, x_),
   PROTOBUF_FIELD_OFFSET(::skybox::Point, y_),
+  PROTOBUF_FIELD_OFFSET(::skybox::Point, z_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::skybox::GenerateSkyBoxRequest, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -166,10 +169,10 @@ static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOB
   { 0, -1, sizeof(::skybox::HelloRequest)},
   { 6, -1, sizeof(::skybox::HelloReply)},
   { 12, -1, sizeof(::skybox::Point)},
-  { 19, -1, sizeof(::skybox::GenerateSkyBoxRequest)},
-  { 25, -1, sizeof(::skybox::GenerateSkyBoxReply)},
-  { 31, -1, sizeof(::skybox::QueryJobRequest)},
-  { 37, -1, sizeof(::skybox::QueryJobReply)},
+  { 20, -1, sizeof(::skybox::GenerateSkyBoxRequest)},
+  { 26, -1, sizeof(::skybox::GenerateSkyBoxReply)},
+  { 32, -1, sizeof(::skybox::QueryJobRequest)},
+  { 38, -1, sizeof(::skybox::QueryJobReply)},
 };
 
 static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
@@ -185,23 +188,25 @@ static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] =
 const char descriptor_table_protodef_skybox_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
   "\n\014skybox.proto\022\006skybox\"\034\n\014HelloRequest\022\014"
   "\n\004name\030\001 \001(\t\"\035\n\nHelloReply\022\017\n\007message\030\001 "
-  "\001(\t\"\035\n\005Point\022\t\n\001x\030\001 \001(\002\022\t\n\001y\030\002 \001(\002\"8\n\025Ge"
-  "nerateSkyBoxRequest\022\037\n\010position\030\001 \001(\0132\r."
-  "skybox.Point\"%\n\023GenerateSkyBoxReply\022\016\n\006j"
-  "ob_id\030\001 \001(\005\"!\n\017QueryJobRequest\022\016\n\006job_id"
-  "\030\001 \001(\005\"3\n\rQueryJobReply\022\016\n\006job_id\030\001 \001(\005\022"
-  "\022\n\njob_status\030\002 \001(\005*\"\n\tJobStatus\022\013\n\007Succ"
-  "ess\020\000\022\010\n\004Fail\020\0012\325\001\n\rSkyBoxService\0226\n\010Say"
-  "Hello\022\024.skybox.HelloRequest\032\022.skybox.Hel"
-  "loReply\"\000\022N\n\016GenerateSkyBox\022\035.skybox.Gen"
-  "erateSkyBoxRequest\032\033.skybox.GenerateSkyB"
-  "oxReply\"\000\022<\n\010QueryJob\022\027.skybox.QueryJobR"
-  "equest\032\025.skybox.QueryJobReply\"\000B\'\n\021io.gr"
-  "pc.pb.skyboxB\013SkyBoxProtoP\001\242\002\002PBb\006proto3"
+  "\001(\t\"(\n\005Point\022\t\n\001x\030\001 \001(\002\022\t\n\001y\030\002 \001(\002\022\t\n\001z\030"
+  "\003 \001(\002\"8\n\025GenerateSkyBoxRequest\022\037\n\010positi"
+  "on\030\001 \001(\0132\r.skybox.Point\"%\n\023GenerateSkyBo"
+  "xReply\022\016\n\006job_id\030\001 \001(\005\"!\n\017QueryJobReques"
+  "t\022\016\n\006job_id\030\001 \001(\005\"F\n\rQueryJobReply\022\016\n\006jo"
+  "b_id\030\001 \001(\005\022%\n\njob_status\030\002 \001(\0162\021.skybox."
+  "JobStatus*@\n\tJobStatus\022\r\n\tSucceeded\020\000\022\n\n"
+  "\006Failed\020\001\022\013\n\007Waiting\020\002\022\013\n\007Working\020\0032\325\001\n\r"
+  "SkyBoxService\0226\n\010SayHello\022\024.skybox.Hello"
+  "Request\032\022.skybox.HelloReply\"\000\022N\n\016Generat"
+  "eSkyBox\022\035.skybox.GenerateSkyBoxRequest\032\033"
+  ".skybox.GenerateSkyBoxReply\"\000\022<\n\010QueryJo"
+  "b\022\027.skybox.QueryJobRequest\032\025.skybox.Quer"
+  "yJobReply\"\000B\'\n\021io.grpc.pb.skyboxB\013SkyBox"
+  "ProtoP\001\242\002\002PBb\006proto3"
   ;
 static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_skybox_2eproto_once;
 const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_skybox_2eproto = {
-  false, false, 600, descriptor_table_protodef_skybox_2eproto, "skybox.proto", 
+  false, false, 660, descriptor_table_protodef_skybox_2eproto, "skybox.proto", 
   &descriptor_table_skybox_2eproto_once, nullptr, 0, 7,
   schemas, file_default_instances, TableStruct_skybox_2eproto::offsets,
   file_level_metadata_skybox_2eproto, file_level_enum_descriptors_skybox_2eproto, file_level_service_descriptors_skybox_2eproto,
@@ -223,6 +228,8 @@ bool JobStatus_IsValid(int value) {
   switch (value) {
     case 0:
     case 1:
+    case 2:
+    case 3:
       return true;
     default:
       return false;
@@ -646,16 +653,16 @@ Point::Point(const Point& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   ::memcpy(&x_, &from.x_,
-    static_cast<size_t>(reinterpret_cast<char*>(&y_) -
-    reinterpret_cast<char*>(&x_)) + sizeof(y_));
+    static_cast<size_t>(reinterpret_cast<char*>(&z_) -
+    reinterpret_cast<char*>(&x_)) + sizeof(z_));
   // @@protoc_insertion_point(copy_constructor:skybox.Point)
 }
 
 void Point::SharedCtor() {
 ::memset(reinterpret_cast<char*>(this) + static_cast<size_t>(
     reinterpret_cast<char*>(&x_) - reinterpret_cast<char*>(this)),
-    0, static_cast<size_t>(reinterpret_cast<char*>(&y_) -
-    reinterpret_cast<char*>(&x_)) + sizeof(y_));
+    0, static_cast<size_t>(reinterpret_cast<char*>(&z_) -
+    reinterpret_cast<char*>(&x_)) + sizeof(z_));
 }
 
 Point::~Point() {
@@ -685,8 +692,8 @@ void Point::Clear() {
   (void) cached_has_bits;
 
   ::memset(&x_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&y_) -
-      reinterpret_cast<char*>(&x_)) + sizeof(y_));
+      reinterpret_cast<char*>(&z_) -
+      reinterpret_cast<char*>(&x_)) + sizeof(z_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
@@ -708,6 +715,13 @@ const char* Point::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::inte
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 21)) {
           y_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          ptr += sizeof(float);
+        } else goto handle_unusual;
+        continue;
+      // float z = 3;
+      case 3:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 29)) {
+          z_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
         } else goto handle_unusual;
         continue;
@@ -751,6 +765,12 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(2, this->_internal_y(), target);
   }
 
+  // float z = 3;
+  if (!(this->z() <= 0 && this->z() >= 0)) {
+    target = stream->EnsureSpace(target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(3, this->_internal_z(), target);
+  }
+
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
@@ -774,6 +794,11 @@ size_t Point::ByteSizeLong() const {
 
   // float y = 2;
   if (!(this->y() <= 0 && this->y() >= 0)) {
+    total_size += 1 + 4;
+  }
+
+  // float z = 3;
+  if (!(this->z() <= 0 && this->z() >= 0)) {
     total_size += 1 + 4;
   }
 
@@ -814,6 +839,9 @@ void Point::MergeFrom(const Point& from) {
   if (!(from.y() <= 0 && from.y() >= 0)) {
     _internal_set_y(from._internal_y());
   }
+  if (!(from.z() <= 0 && from.z() >= 0)) {
+    _internal_set_z(from._internal_z());
+  }
 }
 
 void Point::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
@@ -838,8 +866,8 @@ void Point::InternalSwap(Point* other) {
   using std::swap;
   _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Point, y_)
-      + sizeof(Point::y_)
+      PROTOBUF_FIELD_OFFSET(Point, z_)
+      + sizeof(Point::z_)
       - PROTOBUF_FIELD_OFFSET(Point, x_)>(
           reinterpret_cast<char*>(&x_),
           reinterpret_cast<char*>(&other->x_));
@@ -1506,11 +1534,12 @@ const char* QueryJobReply::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
           CHK_(ptr);
         } else goto handle_unusual;
         continue;
-      // int32 job_status = 2;
+      // .skybox.JobStatus job_status = 2;
       case 2:
         if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          job_status_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
+          _internal_set_job_status(static_cast<::skybox::JobStatus>(val));
         } else goto handle_unusual;
         continue;
       default: {
@@ -1547,10 +1576,11 @@ failure:
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(1, this->_internal_job_id(), target);
   }
 
-  // int32 job_status = 2;
+  // .skybox.JobStatus job_status = 2;
   if (this->job_status() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(2, this->_internal_job_status(), target);
+    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+      2, this->_internal_job_status(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -1576,11 +1606,10 @@ size_t QueryJobReply::ByteSizeLong() const {
         this->_internal_job_id());
   }
 
-  // int32 job_status = 2;
+  // .skybox.JobStatus job_status = 2;
   if (this->job_status() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_job_status());
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_job_status());
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
@@ -1684,5 +1713,4 @@ PROTOBUF_NAMESPACE_CLOSE
 
 // @@protoc_insertion_point(global_scope)
 #include <google/protobuf/port_undef.inc>
-
-#pragma warning( pop )
+#pragma warning(pop)

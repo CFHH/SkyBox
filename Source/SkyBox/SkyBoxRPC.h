@@ -3,6 +3,9 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include <map>
+#include <list>
+#include "CoreMinimal.h"
 #pragma warning (push)
 #pragma warning (disable : 4800)
 #pragma warning (disable : 4125)
@@ -19,14 +22,77 @@
 #pragma warning( pop )
 
 
+struct SkyBoxPosition;
+class SkyBoxJob;
 class SkyBoxServiceImpl final : public skybox::SkyBoxService::Service
 {
 public:
     static void RunServer();
     static void ShutDownServer();
+    static SkyBoxServiceImpl* Instance();
+private:
+    SkyBoxServiceImpl();
+    static SkyBoxServiceImpl* ms_instance;
+public:
+    ~SkyBoxServiceImpl();
     grpc::Status SayHello(grpc::ServerContext* context, const skybox::HelloRequest* request, skybox::HelloReply* reply) override;
     grpc::Status GenerateSkyBox(grpc::ServerContext* context, const skybox::GenerateSkyBoxRequest* request, skybox::GenerateSkyBoxReply* reply) override;
     grpc::Status QueryJob(grpc::ServerContext* context, const skybox::QueryJobRequest* request, skybox::QueryJobReply* reply) override;
+    SkyBoxJob* GetJob();
+    void OnJobCompleted(SkyBoxJob* job);
+private:
+    int GenerateJobID();
+    SkyBoxJob* CreateNewJob(SkyBoxPosition* key);
+private:
+    int m_next_job_id;
+    FCriticalSection m_lock;
+    std::list<SkyBoxJob*> m_jobs;
+    std::map<SkyBoxPosition, SkyBoxJob*> m_key2jobs;
+    std::map<int, SkyBoxJob*> m_id2jobs;
+private:
+    static const int m_max_cache_count = 1000;
+    std::list<SkyBoxJob*> m_jobs_completed;
+    std::map<SkyBoxPosition, SkyBoxJob*> m_key2jobs_completed;
+    std::map<int, SkyBoxJob*> m_id2jobs_completed;
+};
+
+
+struct SkyBoxPosition
+{
+    int scene_id;
+    float x;
+    float y;
+    float z;
+    bool operator < (const SkyBoxPosition& rhs) const
+    {
+        if (this->scene_id < rhs.scene_id)
+            return true;
+        if (this->scene_id > rhs.scene_id)
+            return false;
+        if (this->x < rhs.x)
+            return true;
+        if (this->x > rhs.x)
+            return false;
+        if (this->y < rhs.y)
+            return true;
+        if (this->y > rhs.y)
+            return false;
+        return this->z < rhs.z;
+    }
+};
+
+
+class SkyBoxJob
+{
+public:
+    SkyBoxJob();
+    ~SkyBoxJob();
+    int JobID() { return m_id; }
+    void SetStatus(skybox::JobStatus status) { m_status = status; }
+public:
+    int m_id;
+    SkyBoxPosition m_position;
+    skybox::JobStatus m_status;
 };
 
 
@@ -44,7 +110,7 @@ public:
 
 二、在所有protobuf生成的*.pb.cc文件末尾，以及包含*.pb.h之后加上
 
-#pragma warning( pop )
+#pragma warning(pop)
 
 */
 

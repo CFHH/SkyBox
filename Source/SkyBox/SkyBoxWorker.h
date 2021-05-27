@@ -8,8 +8,9 @@ class SkyBoxWorker : public FRunnable
 public:
     static SkyBoxWorker* StartUp();
     static void Shutdown();
-public:
+private:
     SkyBoxWorker();
+public:
     virtual ~SkyBoxWorker();
     void EnsureCompletion();
 public:

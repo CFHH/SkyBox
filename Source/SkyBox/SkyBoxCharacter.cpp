@@ -16,6 +16,8 @@
 #include <SlateApplication.h>
 #include <ImageUtils.h>
 #include <FileHelper.h>
+#include "SkyBoxRPC.h"
+#include "SkyBoxWorker.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -96,7 +98,8 @@ ASkyBoxCharacter::ASkyBoxCharacter()
     m_SixDirection.Push(FRotator(0.0f, -90.0f, 0.0f));  //左
     m_SixDirection.Push(FRotator(90.0f, 0.0f, 0.0f));  //上
     m_SixDirection.Push(FRotator(-90.0f, 0.0f, 0.0f));  //下
-    m_SixDirection.Push(FRotator(0.0f, 0.0f, 0.0f));  //前
+    //m_SixDirection.Push(FRotator(0.0f, 0.0f, 0.0f));  //前
+    m_current_job = NULL;
     m_CurrentDirection = -1;
     m_CurrentState = CaptureState::Invalid;
 }
@@ -122,6 +125,8 @@ void ASkyBoxCharacter::BeginPlay()
 	}
 
     // ZZW
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxCharacter::BeginPlay()"));
+    SkyBoxWorker::StartUp();
     APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
     OurPlayerController->SetViewTarget(SBCamera);
     FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().AddUObject(this, &ASkyBoxCharacter::OnBackBufferReady_RenderThread);
@@ -326,34 +331,77 @@ bool ASkyBoxCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerIn
 ASkyBoxCharacter::~ASkyBoxCharacter()
 {
     // ZZW
-    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！~ASkyBoxCharacter"));
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxCharacter::~ASkyBoxCharacter"));
+    SkyBoxWorker::Shutdown();
     //FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().RemoveAll(this);
 }
 
 void ASkyBoxCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
-    if (m_CurrentDirection >= m_SixDirection.Num())
-        return;
 
-    if (m_CurrentDirection < 0 || m_CurrentState == CaptureState::Saved)
+    FScopeLock lock(&m_lock);
+    
+    if (m_current_job == NULL)
     {
-        if (m_CurrentDirection < 0)
-            m_CurrentDirection = 0;
-        else if (m_CurrentDirection < m_SixDirection.Num())
-            ++m_CurrentDirection;
-        if (m_CurrentDirection < m_SixDirection.Num())
+        m_current_job = SkyBoxServiceImpl::Instance()->GetJob();
+        if (m_current_job == NULL)
+            return;
+        UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Get New Job, job_id = %d, scene_id = %d, position = (%.1f, %.1f, %.1f)"),
+            m_current_job->JobID(), m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z);
+        SetActorLocation(FVector(m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z));
+        SBCamera->SetActorLocation(FVector(m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z));
+        m_CurrentDirection = 0;
+        m_CurrentState = CaptureState::Waiting1;
+        SBCamera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
+        UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Change Direction, job_id = %d, m_CurrentDirection = %d"), m_current_job->JobID(), m_CurrentDirection);
+        return;
+    }
+    if (m_CurrentState == CaptureState::Waiting1)
+    {
+        m_CurrentState = CaptureState::Prepared;
+        return;
+    }
+    if (m_CurrentState == CaptureState::Captured)
+    {
+        bool ok = SavePNGToFile();
+        if (!ok)
         {
-            m_CurrentState = CaptureState::Prepared;
-            SBCamera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
-            UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！m_CurrentDirection = %d"), m_CurrentDirection);
+            UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Job Failed, job_id = %d, scene_id = %d, position = (%.1f, %.1f, %.1f)"),
+                m_current_job->JobID(), m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z);
+            m_current_job->SetStatus(skybox::JobStatus::Failed);
+            SkyBoxServiceImpl::Instance()->OnJobCompleted(m_current_job);
+            m_current_job = NULL;
+            m_CurrentDirection = -1;
+            m_CurrentState = CaptureState::Invalid;
         }
         else
         {
+            m_CurrentState = CaptureState::Saved;
+        }
+        return;
+    }
+    if (m_CurrentState == CaptureState::Saved)
+    {
+        ++m_CurrentDirection;
+        if (m_CurrentDirection < m_SixDirection.Num())
+        {
+            m_CurrentState = CaptureState::Waiting1;
+            SBCamera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
+            UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Change Direction, job_id = %d, m_CurrentDirection = %d"), m_current_job->JobID(), m_CurrentDirection);
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Job Succeeded, job_id = %d, scene_id = %d, position = (%.1f, %.1f, %.1f)"),
+                m_current_job->JobID(), m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z);
+            m_current_job->SetStatus(skybox::JobStatus::Succeeded);
+            SkyBoxServiceImpl::Instance()->OnJobCompleted(m_current_job);
+            m_current_job = NULL;
+            m_CurrentDirection = -1;
             m_CurrentState = CaptureState::Invalid;
         }
+        return;
     }
-    SavePNGToFile();
 }
 
 bool ASkyBoxCharacter::ShouldTickIfViewportsOnly() const
@@ -368,11 +416,13 @@ void ASkyBoxCharacter::OnBackBufferReady_RenderThread(SWindow& SlateWindow, cons
 
 void ASkyBoxCharacter::CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer)
 {
-    if (m_CurrentDirection < 0 || m_CurrentDirection >= m_SixDirection.Num() || m_CurrentState != CaptureState::Prepared)
+    FScopeLock lock(&m_lock);
+
+    if (m_CurrentState != CaptureState::Prepared)
         return;
     if (m_BackBufferData.Num() != 0)
         return;
-    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！CAPTURE, m_CurrentDirection = %d"), m_CurrentDirection);
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！CAPTURE, job_id = %d, m_CurrentDirection = %d"), m_current_job->JobID(), m_CurrentDirection);
     FRHICommandListImmediate& RHICmdList = FRHICommandListExecutor::GetImmediateCommandList();
     FIntRect Rect(0, 0, BackBuffer->GetSizeX(), BackBuffer->GetSizeY());
     RHICmdList.ReadSurfaceData(BackBuffer, Rect, m_BackBufferData, FReadSurfaceDataFlags(RCM_UNorm));
@@ -384,23 +434,27 @@ void ASkyBoxCharacter::CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer
     m_BackBufferSizeY = BackBuffer->GetSizeY();
 
     FDateTime Time = FDateTime::Now();
-    m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\BACK(%dX%d)_%d__%04d-%02d-%02d_%02d-%02d-%02d_%d.png"),
-        m_BackBufferSizeX, m_BackBufferSizeY, m_CurrentDirection, Time.GetYear(), Time.GetMonth(), Time.GetDay(), Time.GetHour(), Time.GetMinute(), Time.GetSecond(), Time.GetMillisecond());
+    /*m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\BACK(%dX%d)_%d__%04d-%02d-%02d_%02d-%02d-%02d_%d.png"),
+        m_BackBufferSizeX, m_BackBufferSizeY, m_CurrentDirection, Time.GetYear(), Time.GetMonth(), Time.GetDay(), Time.GetHour(), Time.GetMinute(), Time.GetSecond(), Time.GetMillisecond());*/
+    m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\BACK(%dX%d)_%d_(%.1f，%.1f，%.1f)_%d.png"),
+        m_BackBufferSizeX, m_BackBufferSizeY, m_current_job->JobID(), m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
     m_CurrentState = CaptureState::Captured;
 }
 
-void ASkyBoxCharacter::SavePNGToFile()
+bool ASkyBoxCharacter::SavePNGToFile()
 {
     if (m_BackBufferData.Num() == 0)
-        return;
-    if (m_CurrentState != CaptureState::Captured)
-        return;
-    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SAVE, m_CurrentDirection = %d"), m_CurrentDirection);
+        return false;
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SAVE, job_id = %d, position = (%.1f, %.1f, %.1f), m_CurrentDirection = %d"),
+        m_current_job->JobID(), m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
     TArray<uint8> CompressedBitmap;
     FImageUtils::CompressImageArray(m_BackBufferSizeX, m_BackBufferSizeY, m_BackBufferData, CompressedBitmap);
     bool Success = FFileHelper::SaveArrayToFile(CompressedBitmap, *m_BackBufferFilePath);
     if (!Success)
+    {
         UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SavePNGToFile() FAIL %s"), *m_BackBufferFilePath);
+        return false;
+    }
     m_BackBufferData.Reset();
-    m_CurrentState = CaptureState::Saved;
+    return true;
 }

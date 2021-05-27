@@ -175,5 +175,4 @@ SkyBoxService::Service::~Service() {
 
 
 }  // namespace skybox
-#pragma warning( pop )
-
+#pragma warning(pop)

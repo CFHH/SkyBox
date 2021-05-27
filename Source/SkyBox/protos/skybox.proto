@@ -24,11 +24,14 @@ message HelloReply {
 message Point {
   float x = 1;
   float y = 2;
+  float z = 3;
 }
 
 enum JobStatus {
-  Success = 0;
-  Fail = 1;
+  Succeeded = 0;
+  Failed = 1;
+  Waiting = 2;
+  Working = 3;
 }
 
 message GenerateSkyBoxRequest {
@@ -45,5 +48,5 @@ message QueryJobRequest {
 
 message QueryJobReply {
   int32 job_id = 1;
-  int32 job_status = 2;
+  JobStatus job_status = 2;
 }
