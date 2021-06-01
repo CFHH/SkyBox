@@ -50,6 +50,10 @@ public class SkyBox : ModuleRules
             PublicAdditionalLibraries.Add("ssl.lib");
             PublicAdditionalLibraries.Add("zlibstatic.lib");
 
+            //AddEngineThirdPartyPrivateStaticDependencies(Target, "CryptoPP");
+            //AddEngineThirdPartyPrivateStaticDependencies(Target, "OpenSSL");
+            //AddEngineThirdPartyPrivateStaticDependencies(Target, "zlib");
+
             PublicAdditionalLibraries.Add("absl_hash.lib");
             PublicAdditionalLibraries.Add("absl_city.lib");
             PublicAdditionalLibraries.Add("absl_wyhash.lib");

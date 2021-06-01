@@ -71,10 +71,25 @@
     <None Include="..\..\Source\SkyBox\protos\skybox.proto">
       <Filter>Source\SkyBox\protos</Filter>
     </None>
+    <None Include="..\..\www\index.js">
+      <Filter>www</Filter>
+    </None>
+    <None Include="..\..\www\requestHandlers.js">
+      <Filter>www</Filter>
+    </None>
+    <None Include="..\..\www\router.js">
+      <Filter>www</Filter>
+    </None>
+    <None Include="..\..\www\server.js">
+      <Filter>www</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source\SkyBox\protos">
       <UniqueIdentifier>{36ea1c0d-205d-4ffa-8623-8af341a86414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="www">
+      <UniqueIdentifier>{6b273417-9569-4cc7-912f-d0f72718b17f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -59,7 +59,7 @@ SkyBoxServiceImpl::~SkyBoxServiceImpl()
 
 grpc::Status SkyBoxServiceImpl::SayHello(grpc::ServerContext* context, const skybox::HelloRequest* request, skybox::HelloReply* reply)
 {
-    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::SayHello()"));
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::SayHello(), name = %s"), request->name().c_str());
     std::string prefix("Hello ");
     reply->set_message(prefix + request->name());
     return grpc::Status::OK;
@@ -67,6 +67,7 @@ grpc::Status SkyBoxServiceImpl::SayHello(grpc::ServerContext* context, const sky
 
 grpc::Status SkyBoxServiceImpl::GenerateSkyBox(grpc::ServerContext* context, const skybox::GenerateSkyBoxRequest* request, skybox::GenerateSkyBoxReply* reply)
 {
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::GenerateSkyBox(), posotion = (%.1f, %.1f, %.1f)"), request->position().x(), request->position().y(), request->position().z());
     SkyBoxPosition key;
     key.scene_id = 0;
     key.x = request->position().x();
@@ -96,6 +97,7 @@ grpc::Status SkyBoxServiceImpl::GenerateSkyBox(grpc::ServerContext* context, con
 
 grpc::Status SkyBoxServiceImpl::QueryJob(grpc::ServerContext* context, const skybox::QueryJobRequest* request, skybox::QueryJobReply* reply)
 {
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::QueryJob(), job_id = %d"), request->job_id());
     int job_id = request->job_id();
     reply->set_job_id(job_id);
     FScopeLock lock(&m_lock);
@@ -146,7 +148,15 @@ void SkyBoxServiceImpl::OnJobCompleted(SkyBoxJob* job)
     m_jobs_completed.push_back(job);
     m_key2jobs_completed[job->m_position] = job;
     m_id2jobs_completed[job->m_id] = job;
-    //TODO cache过多
+    //CACHE
+    while (m_jobs_completed.size() > m_max_cache_count)
+    {
+        SkyBoxJob* job2delete = m_jobs_completed.front();
+        m_jobs_completed.pop_front();
+        m_key2jobs_completed.erase(job2delete->m_position);
+        m_id2jobs_completed.erase(job2delete->m_id);
+        delete job2delete;
+    }
 }
 
 int SkyBoxServiceImpl::GenerateJobID()
