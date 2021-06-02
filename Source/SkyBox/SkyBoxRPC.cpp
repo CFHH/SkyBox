@@ -38,6 +38,8 @@ SkyBoxServiceImpl::SkyBoxServiceImpl()
 {
     m_next_job_id = 1;
     //TEST
+    FScopeLock lock(&m_lock);
+
     SkyBoxPosition key1;
     key1.scene_id = 0;
     key1.x = -351.0f;
@@ -59,7 +61,7 @@ SkyBoxServiceImpl::~SkyBoxServiceImpl()
 
 grpc::Status SkyBoxServiceImpl::SayHello(grpc::ServerContext* context, const skybox::HelloRequest* request, skybox::HelloReply* reply)
 {
-    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::SayHello(), name = %s"), request->name().c_str());
+    UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::SayHello(), name = %S"), request->name().c_str());
     std::string prefix("Hello ");
     reply->set_message(prefix + request->name());
     return grpc::Status::OK;

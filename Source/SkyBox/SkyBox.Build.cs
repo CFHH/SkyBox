@@ -30,11 +30,11 @@ public class SkyBox : ModuleRules
             //PublicDefinitions.Add("GOOGLE_PROTOBUF_USE_UNALIGNED=0");
             //PublicDefinitions.Add("GPR_FORBID_UNREACHABLE_CODE=0");
 
-            //AddEngineThirdPartyPrivateStaticDependencies(Target, "OpenSSL");
-            //AddEngineThirdPartyPrivateStaticDependencies(Target, "zlib");
+            PublicIncludePaths.Add("D:/grpc_sdk/win64/include");
+            PublicLibraryPaths.Add("D:/grpc_sdk/win64/lib");
 
-            PublicIncludePaths.Add("D:/grpc_sdk/win64/Release/MD/include");
-            PublicLibraryPaths.Add("D:/grpc_sdk/win64/Release/MD/lib");
+            //PublicIncludePaths.Add("D:/grpc_sdk/win64/Release/MD/include");
+            //PublicLibraryPaths.Add("D:/grpc_sdk/win64/Release/MD/lib");
 
             PublicAdditionalLibraries.Add("address_sorting.lib");
             PublicAdditionalLibraries.Add("cares.lib");
@@ -45,14 +45,13 @@ public class SkyBox : ModuleRules
             PublicAdditionalLibraries.Add("libprotobuf.lib");
             PublicAdditionalLibraries.Add("upb.lib");
 
-            PublicAdditionalLibraries.Add("crypto.lib");
             PublicAdditionalLibraries.Add("re2.lib");
-            PublicAdditionalLibraries.Add("ssl.lib");
-            PublicAdditionalLibraries.Add("zlibstatic.lib");
-
-            //AddEngineThirdPartyPrivateStaticDependencies(Target, "CryptoPP");
-            //AddEngineThirdPartyPrivateStaticDependencies(Target, "OpenSSL");
-            //AddEngineThirdPartyPrivateStaticDependencies(Target, "zlib");
+            //PublicAdditionalLibraries.Add("crypto.lib");
+            //PublicAdditionalLibraries.Add("ssl.lib");
+            //PublicAdditionalLibraries.Add("zlibstatic.lib");
+            //不需要AddEngineThirdPartyPrivateStaticDependencies(Target, "CryptoPP");
+            AddEngineThirdPartyPrivateStaticDependencies(Target, "OpenSSL");
+            AddEngineThirdPartyPrivateStaticDependencies(Target, "zlib");
 
             PublicAdditionalLibraries.Add("absl_hash.lib");
             PublicAdditionalLibraries.Add("absl_city.lib");
