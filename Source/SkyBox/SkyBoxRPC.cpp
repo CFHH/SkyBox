@@ -9,13 +9,11 @@ void SkyBoxServiceImpl::RunServer()
 {
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::RunServer()"));
     std::string server_address("0.0.0.0:50051");
-    //SkyBoxServiceImpl service;
     grpc::EnableDefaultHealthCheckService(true);
     grpc::reflection::InitProtoReflectionServerBuilderPlugin();
     grpc::ServerBuilder builder;
     builder.AddListeningPort(server_address, grpc::InsecureServerCredentials());
-    builder.RegisterService(/*&service*/SkyBoxServiceImpl::Instance());
-    //std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+    builder.RegisterService(SkyBoxServiceImpl::Instance());
     ms_instance->m_grpc_server = builder.BuildAndStart();
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！RPC Server listening on %s"), server_address.c_str());
     ms_instance->m_grpc_server->Wait();

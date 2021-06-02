@@ -44,7 +44,6 @@ SkyBoxWorker::~SkyBoxWorker()
 void SkyBoxWorker::EnsureCompletion()
 {
     Stop();
-    //TODO 还不知道如何关闭rpc
     m_thread->WaitForCompletion();
 }
 
