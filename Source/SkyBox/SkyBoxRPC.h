@@ -33,6 +33,7 @@ public:
 private:
     SkyBoxServiceImpl();
     static SkyBoxServiceImpl* ms_instance;
+    std::unique_ptr<grpc::Server> m_grpc_server;
 public:
     ~SkyBoxServiceImpl();
     grpc::Status SayHello(grpc::ServerContext* context, const skybox::HelloRequest* request, skybox::HelloReply* reply) override;

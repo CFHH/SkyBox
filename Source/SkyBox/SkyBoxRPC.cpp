@@ -15,14 +15,16 @@ void SkyBoxServiceImpl::RunServer()
     grpc::ServerBuilder builder;
     builder.AddListeningPort(server_address, grpc::InsecureServerCredentials());
     builder.RegisterService(/*&service*/SkyBoxServiceImpl::Instance());
-    std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+    //std::unique_ptr<grpc::Server> server(builder.BuildAndStart());
+    ms_instance->m_grpc_server = builder.BuildAndStart();
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！RPC Server listening on %s"), server_address.c_str());
-    server->Wait();
+    ms_instance->m_grpc_server->Wait();
 }
 
 void SkyBoxServiceImpl::ShutDownServer()
 {
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::ShutDownServer()"));
+    ms_instance->m_grpc_server->Shutdown();
     //grpc::Server::Shutdown();
     //grpc::CompletionQueue::Shutdown();
 }
