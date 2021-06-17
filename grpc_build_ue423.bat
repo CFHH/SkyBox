@@ -1,5 +1,5 @@
 REM 把此文件放到grpc-1.38.x\cmake
-set INSTALL_PATH=D:/grpc_sdk/win64
+set INSTALL_PATH=D:/grpc_sdk/win64_ue423
 set UE_ROOT=G:\UnrealEngine-4.23.1-ps
 set CMAKE_BUILD_DIR=D:\grpc_sdk\grpc-1.38.x\cmake\build
 

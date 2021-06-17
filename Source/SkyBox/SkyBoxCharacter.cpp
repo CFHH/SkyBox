@@ -436,7 +436,7 @@ void ASkyBoxCharacter::CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer
     FDateTime Time = FDateTime::Now();
     /*m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\BACK(%dX%d)_%d__%04d-%02d-%02d_%02d-%02d-%02d_%d.png"),
         m_BackBufferSizeX, m_BackBufferSizeY, m_CurrentDirection, Time.GetYear(), Time.GetMonth(), Time.GetDay(), Time.GetHour(), Time.GetMinute(), Time.GetSecond(), Time.GetMillisecond());*/
-    m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\BACK(%dX%d)_%d_(%.1f，%.1f，%.1f)_%d.png"),
+    m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\SkyBox(%dX%d)_Scene%d_(%.1f，%.1f，%.1f)_%d.png"),
         m_BackBufferSizeX, m_BackBufferSizeY, m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
     m_CurrentState = CaptureState::Captured;
 }

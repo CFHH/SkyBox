@@ -30,11 +30,8 @@ public class SkyBox : ModuleRules
             //PublicDefinitions.Add("GOOGLE_PROTOBUF_USE_UNALIGNED=0");
             //PublicDefinitions.Add("GPR_FORBID_UNREACHABLE_CODE=0");
 
-            PublicIncludePaths.Add("D:/grpc_sdk/win64/include");
-            PublicLibraryPaths.Add("D:/grpc_sdk/win64/lib");
-
-            //PublicIncludePaths.Add("D:/grpc_sdk/win64/Release/MD/include");
-            //PublicLibraryPaths.Add("D:/grpc_sdk/win64/Release/MD/lib");
+            PublicIncludePaths.Add("D:/grpc_sdk/win64_ue423/include");
+            PublicLibraryPaths.Add("D:/grpc_sdk/win64_ue423/lib");
 
             PublicAdditionalLibraries.Add("address_sorting.lib");
             PublicAdditionalLibraries.Add("cares.lib");
@@ -44,12 +41,15 @@ public class SkyBox : ModuleRules
             PublicAdditionalLibraries.Add("grpc++_reflection.lib");
             PublicAdditionalLibraries.Add("libprotobuf.lib");
             PublicAdditionalLibraries.Add("upb.lib");
-
             PublicAdditionalLibraries.Add("re2.lib");
+
+            //gRPC自带的库（不能用，链接不过）
             //PublicAdditionalLibraries.Add("crypto.lib");
             //PublicAdditionalLibraries.Add("ssl.lib");
             //PublicAdditionalLibraries.Add("zlibstatic.lib");
-            //不需要AddEngineThirdPartyPrivateStaticDependencies(Target, "CryptoPP");
+
+            //UE自带的库（编译gRPC时需要指定）
+            //AddEngineThirdPartyPrivateStaticDependencies(Target, "CryptoPP"); //不需要
             AddEngineThirdPartyPrivateStaticDependencies(Target, "OpenSSL");
             AddEngineThirdPartyPrivateStaticDependencies(Target, "zlib");
 
