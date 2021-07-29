@@ -3,6 +3,7 @@
 #include "SkyBoxCharacter.h"
 #include "SkyBoxProjectile.h"
 #include "Animation/AnimInstance.h"
+#include "Camera/CameraActor.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -102,6 +103,8 @@ ASkyBoxCharacter::ASkyBoxCharacter()
     m_current_job = NULL;
     m_CurrentDirection = -1;
     m_CurrentState = CaptureState::Invalid;
+
+    m_capture_camera = NULL;
 }
 
 void ASkyBoxCharacter::BeginPlay()
@@ -127,8 +130,16 @@ void ASkyBoxCharacter::BeginPlay()
     // ZZW
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxCharacter::BeginPlay()"));
     SkyBoxWorker::StartUp();
+
+    m_capture_camera = GetWorld()->SpawnActor<ACameraActor>(GetActorLocation(), GetActorRotation());
+    UCameraComponent* camera_component = m_capture_camera->GetCameraComponent();
+    camera_component->bUsePawnControlRotation = false;  //如果这个是true，就不能旋转Actor；若不能YAW旋转，蓝图打开actor，取消“用控制器旋转Yaw”的打勾
+    //camera_component->SetFieldOfView(90.0f);  //在编辑器里指定
+    camera_component->SetAspectRatio(1.0f);
+    camera_component->SetConstraintAspectRatio(true);
+
     APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
-    OurPlayerController->SetViewTarget(SBCamera);
+    OurPlayerController->SetViewTarget(m_capture_camera);
     FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().AddUObject(this, &ASkyBoxCharacter::OnBackBufferReady_RenderThread);
 }
 
@@ -332,6 +343,11 @@ ASkyBoxCharacter::~ASkyBoxCharacter()
 {
     // ZZW
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxCharacter::~ASkyBoxCharacter"));
+    if (m_capture_camera != NULL)
+    {
+        m_capture_camera->Destroy();
+        m_capture_camera = NULL;
+    }
     SkyBoxWorker::Shutdown();
     //FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().RemoveAll(this);
 }
@@ -350,16 +366,24 @@ void ASkyBoxCharacter::Tick(float DeltaSeconds)
         UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Get New Job, job_id = %d, scene_id = %d, position = (%.1f, %.1f, %.1f)"),
             m_current_job->JobID(), m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z);
         SetActorLocation(FVector(m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z));
-        SBCamera->SetActorLocation(FVector(m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z));
+        m_capture_camera->SetActorLocation(FVector(m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z));
         m_CurrentDirection = 0;
         m_CurrentState = CaptureState::Waiting1;
-        SBCamera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
+        m_capture_camera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
         UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Change Direction, job_id = %d, m_CurrentDirection = %d"), m_current_job->JobID(), m_CurrentDirection);
         return;
     }
     if (m_CurrentState == CaptureState::Waiting1)
     {
-        m_CurrentState = CaptureState::Prepared;
+        //m_CurrentState = CaptureState::Prepared;
+
+        //m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\SkyBox(%dX%d)_Scene%d_(%.1f，%.1f，%.1f)_%d.png"),
+        //    m_BackBufferSizeX, m_BackBufferSizeY, m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
+        //FString cmd = FString::Printf(TEXT("HighResShot 2048x2048 filename=\"%s\""), *m_BackBufferFilePath);
+
+        FString cmd = TEXT("HighResShot 2048x2048");
+        GEngine->Exec(GetWorld(), *cmd);
+        m_CurrentState = CaptureState::Saved;
         return;
     }
     if (m_CurrentState == CaptureState::Captured)
@@ -387,7 +411,7 @@ void ASkyBoxCharacter::Tick(float DeltaSeconds)
         if (m_CurrentDirection < m_SixDirection.Num())
         {
             m_CurrentState = CaptureState::Waiting1;
-            SBCamera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
+            m_capture_camera->SetActorRotation(m_SixDirection[m_CurrentDirection]);
             UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！Change Direction, job_id = %d, m_CurrentDirection = %d"), m_current_job->JobID(), m_CurrentDirection);
         }
         else

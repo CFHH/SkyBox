@@ -50,6 +50,8 @@ class ASkyBoxCharacter : public ACharacter
     UPROPERTY(EditAnywhere)
     AActor* SBCamera;
 
+    ACameraActor* m_capture_camera;
+
 public:
 	ASkyBoxCharacter();
     virtual ~ASkyBoxCharacter();
