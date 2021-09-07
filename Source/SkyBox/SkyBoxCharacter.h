@@ -151,6 +151,7 @@ public:
     virtual bool ShouldTickIfViewportsOnly() const override;
 private:
     void OnBackBufferReady_RenderThread(SWindow& SlateWindow, const FTexture2DRHIRef& BackBuffer);
+    void OnScreenshotProcessed_RenderThread();
     void CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer);
     bool SavePNGToFile();
     TArray<FRotator> m_SixDirection;

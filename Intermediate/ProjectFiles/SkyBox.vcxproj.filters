@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SkyBox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D5098AFE-F6E3-47D9-947F-6B55EA7816B7}</UniqueIdentifier>
+      <UniqueIdentifier>{72BE48CF-9416-49D2-9FC0-5F55B0C36CB2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SkyBox.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\SkyBoxEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\grpc_build_ue423.bat" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F0EF40B6-0A8B-4254-87A8-D0F9DE10299F}</UniqueIdentifier>
+      <UniqueIdentifier>{A81F2A02-8868-45CA-8E39-6D574C78BB9A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SkyBox">
-      <UniqueIdentifier>{FB228A8D-D3FE-4CD5-ACD8-77064F1899A0}</UniqueIdentifier>
+      <UniqueIdentifier>{0395F35A-3D86-4E5D-87EE-6D7F5D884B2B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SkyBox\SkyBox.Build.cs">
       <Filter>Source\SkyBox</Filter>
@@ -65,59 +68,38 @@
     <ClInclude Include="..\..\Source\SkyBox\SkyBoxProjectile.h">
       <Filter>Source\SkyBox</Filter>
     </ClInclude>
-    <None Include="..\..\Source\SkyBox\protos\genproto.bat">
-      <Filter>Source\SkyBox\protos</Filter>
-    </None>
-    <None Include="..\..\Source\SkyBox\protos\skybox.proto">
-      <Filter>Source\SkyBox\protos</Filter>
-    </None>
-    <None Include="..\..\www\index.js">
-      <Filter>www</Filter>
-    </None>
-    <None Include="..\..\www\requestHandlers.js">
-      <Filter>www</Filter>
-    </None>
-    <None Include="..\..\www\router.js">
-      <Filter>www</Filter>
-    </None>
-    <None Include="..\..\www\server.js">
-      <Filter>www</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\SkyBox\protos">
-      <UniqueIdentifier>{36ea1c0d-205d-4ffa-8623-8af341a86414}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="www">
-      <UniqueIdentifier>{6b273417-9569-4cc7-912f-d0f72718b17f}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.cc">
-      <Filter>Source\SkyBox\protos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\SkyBox\protos\skybox.pb.cc">
-      <Filter>Source\SkyBox\protos</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\SkyBox\SkyBoxRPC.cpp">
       <Filter>Source\SkyBox</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxWorker.cpp">
-      <Filter>Source\SkyBox</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.h">
-      <Filter>Source\SkyBox\protos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.pb.h">
-      <Filter>Source\SkyBox\protos</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\SkyBox\SkyBoxRPC.h">
       <Filter>Source\SkyBox</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxWorker.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\SkyBox\SkyBoxWorker.h">
       <Filter>Source\SkyBox</Filter>
     </ClInclude>
+    <Filter Include="Source\SkyBox\protos">
+      <UniqueIdentifier>{85B04B5F-E1D7-47B3-BB83-D48B4F0BDC10}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SkyBox\protos\genproto.bat">
+      <Filter>Source\SkyBox\protos</Filter>
+    </None>
+    <None Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.cc">
+      <Filter>Source\SkyBox\protos</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.h">
+      <Filter>Source\SkyBox\protos</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SkyBox\protos\skybox.pb.cc">
+      <Filter>Source\SkyBox\protos</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.pb.h">
+      <Filter>Source\SkyBox\protos</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SkyBox\protos\skybox.proto">
+      <Filter>Source\SkyBox\protos</Filter>
+    </None>
   </ItemGroup>
 </Project>

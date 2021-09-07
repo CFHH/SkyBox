@@ -8,6 +8,7 @@ DerivedDataCache/
 Intermediate/AssetRegistryCache/
 #这个不能忽略 Intermediate/Build/BuildRules/
 Intermediate/Build/Unused/
+Intermediate/Build/Win32/
 Intermediate/Build/Win64/
 Intermediate/Config/
 Intermediate/ReimportCache/

@@ -267,7 +267,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A2504D53-E472-4AF7-8BD3-BE10899153DF}</ProjectGuid>
+    <ProjectGuid>{ED6ED955-9FAD-43D9-BC5A-0795A719CD3B}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>SkyBox</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -279,172 +279,172 @@
     <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test|arm64'" Label="Configuration">
-    <AppContainerApplication>true</AppContainerApplication>
-    <ApplicationType>Windows Store</ApplicationType>
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-    <WindowsAppContainer>true</WindowsAppContainer>
-    <AppxPackage>true</AppxPackage>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
@@ -716,24 +716,24 @@
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
     <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
     <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -747,9 +747,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win32\SkyBox-Win32-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
@@ -764,9 +764,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win64\SkyBox-Win64-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
@@ -781,10 +781,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Win64 Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Win64 Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Win64 Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Win64 Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Win64 Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Win64 Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -798,25 +798,25 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HoloLens\SkyBox-HoloLens-Debug.exe</NMakeOutput>
-    <AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
-    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
-    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
-    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
-    <RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-    <LayoutDir>G:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
-    <AppxPackageRecipe>G:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
-  </ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>I:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>I:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -829,9 +829,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Mac\SkyBox-Mac-Debug</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
@@ -846,10 +846,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Mac Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Mac Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Mac Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Mac Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Mac Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Mac Debug -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -863,9 +863,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Debug -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HTML5\SkyBox-HTML5-Debug.js</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="PropertySheets">
@@ -880,9 +880,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win32\SkyBox-Win32-DebugGame.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="PropertySheets">
@@ -897,9 +897,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win64\SkyBox-Win64-DebugGame.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
@@ -914,10 +914,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Win64 DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Win64 DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Win64 DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UE4Editor-Win64-DebugGame.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Win64 DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Win64 DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Win64 DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UE4Editor-Win64-DebugGame.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -931,25 +931,25 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HoloLens\SkyBox-HoloLens-DebugGame.exe</NMakeOutput>
-    <AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
-    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
-    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
-    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
-    <RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-    <LayoutDir>G:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
-    <AppxPackageRecipe>G:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
-  </ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>I:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>I:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -962,9 +962,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Mac\SkyBox-Mac-DebugGame</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -979,10 +979,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Mac DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Mac DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Mac DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\UE4Editor-Mac-DebugGame</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Mac DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Mac DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Mac DebugGame -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\UE4Editor-Mac-DebugGame</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -996,9 +996,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 DebugGame -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HTML5\SkyBox-HTML5-DebugGame.js</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="PropertySheets">
@@ -1013,9 +1013,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win32\SkyBox.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="PropertySheets">
@@ -1030,28 +1030,27 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win64\SkyBox.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
-    <IncludePath>$(IncludePath)</IncludePath>
+    <IncludePath />
     <ReferencePath />
-    <LibraryPath>
-    </LibraryPath>
+    <LibraryPath />
     <LibraryWPath />
     <SourcePath />
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Win64 Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Win64 Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Win64 Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Win64 Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Win64 Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Win64 Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -1065,25 +1064,25 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HoloLens\SkyBox.exe</NMakeOutput>
-    <AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
-    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
-    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
-    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
-    <RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-    <LayoutDir>G:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
-    <AppxPackageRecipe>G:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
-  </ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>I:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>I:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -1096,9 +1095,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Mac\SkyBox</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
@@ -1113,10 +1112,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Mac Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Mac Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Mac Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat -Target="SkyBoxEditor Mac Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat -Target="SkyBoxEditor Mac Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat -Target="SkyBoxEditor Mac Development -Project=\"$(SolutionDir)$(ProjectName).uproject\"" -Target="ShaderCompileWorker Win64 Development" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -1130,9 +1129,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Development -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HTML5\SkyBox.js</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
@@ -1147,9 +1146,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win32\SkyBox-Win32-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
@@ -1164,9 +1163,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win64\SkyBox-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="PropertySheets">
@@ -1181,25 +1180,25 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HoloLens\SkyBox-HoloLens-Shipping.exe</NMakeOutput>
-    <AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
-    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
-    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
-    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
-    <RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-    <LayoutDir>G:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
-    <AppxPackageRecipe>G:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
-  </ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>I:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>I:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -1212,9 +1211,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Mac\SkyBox-Mac-Shipping</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping|Win32'" Label="PropertySheets">
@@ -1229,9 +1228,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Shipping -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HTML5\SkyBox-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
@@ -1246,9 +1245,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win32 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win32 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win32 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win32\SkyBox-Win32-Test.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="PropertySheets">
@@ -1263,9 +1262,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Win64 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Win64 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Win64 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win64\SkyBox-Win64-Test.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="PropertySheets">
@@ -1280,25 +1279,25 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HoloLens Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HoloLens Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HoloLens Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HoloLens\SkyBox-HoloLens-Test.exe</NMakeOutput>
-    <AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
-    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
-    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
-    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
-    <RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-    <LayoutDir>G:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
-    <AppxPackageRecipe>G:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
-    <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
-  </ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>I:\UE4Workspace\SkyBox\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>I:\UE4Workspace\SkyBox\Binaries\HoloLens\SkyBox.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -1311,9 +1310,9 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox Mac Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox Mac Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox Mac Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Mac\SkyBox-Mac-Test</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test|Win32'" Label="PropertySheets">
@@ -1328,49 +1327,48 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat SkyBox HTML5 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat SkyBox HTML5 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat SkyBox HTML5 Test -Project="$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HTML5\SkyBox-HTML5-Test.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxRPC.cpp" />
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxWorker.cpp" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBoxRPC.h" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBoxWorker.h" />
-    <None Include="..\..\SkyBox.uproject" />
-    <None Include="..\..\Source\SkyBox.Target.cs" />
-    <None Include="..\..\Source\SkyBoxEditor.Target.cs" />
-    <None Include="..\..\Config\DefaultEditor.ini" />
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini" />
-    <None Include="..\..\Config\DefaultEngine.ini" />
-    <None Include="..\..\Config\DefaultGame.ini" />
-    <None Include="..\..\Config\DefaultInput.ini" />
-    <None Include="..\..\Source\SkyBox\protos\genproto.bat" />
-    <None Include="..\..\Source\SkyBox\protos\skybox.proto" />
-    <None Include="..\..\Source\SkyBox\SkyBox.Build.cs" />
-    <ClCompile Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.cc" />
-    <ClCompile Include="..\..\Source\SkyBox\protos\skybox.pb.cc" />
-    <ClCompile Include="..\..\Source\SkyBox\SkyBox.cpp" />
-    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.h" />
-    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.pb.h" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBox.h" />
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxCharacter.cpp" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBoxCharacter.h" />
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxGameMode.cpp" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBoxGameMode.h" />
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxHUD.cpp" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBoxHUD.h" />
-    <ClCompile Include="..\..\Source\SkyBox\SkyBoxProjectile.cpp" />
-    <ClInclude Include="..\..\Source\SkyBox\SkyBoxProjectile.h" />
-    <None Include="..\..\www\index.js" />
-    <None Include="..\..\www\requestHandlers.js" />
-    <None Include="..\..\www\router.js" />
-    <None Include="..\..\www\server.js" />
+    <None Include="..\..\SkyBox.uproject"/>
+    <None Include="..\..\Source\SkyBox.Target.cs"/>
+    <None Include="..\..\Source\SkyBoxEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
+    <None Include="..\..\grpc_build_ue423.bat"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Source\SkyBox\SkyBox.Build.cs"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBox.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBox.h"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxCharacter.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxCharacter.h"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxGameMode.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxGameMode.h"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxHUD.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxHUD.h"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxProjectile.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxProjectile.h"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxRPC.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxRPC.h"/>
+    <ClCompile Include="..\..\Source\SkyBox\SkyBoxWorker.cpp"/>
+    <ClInclude Include="..\..\Source\SkyBox\SkyBoxWorker.h"/>
+    <None Include="..\..\Source\SkyBox\protos\genproto.bat"/>
+    <None Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.cc"/>
+    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.grpc.pb.h"/>
+    <None Include="..\..\Source\SkyBox\protos\skybox.pb.cc"/>
+    <ClInclude Include="..\..\Source\SkyBox\protos\skybox.pb.h"/>
+    <None Include="..\..\Source\SkyBox\protos\skybox.proto"/>
   </ItemGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=0;UE_EDITOR=1;ENABLE_PGO_PROFILE=0;USE_VORBIS_FOR_STREAMING=1;USE_XMA2_FOR_STREAMING=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_APPLICATION_CORE=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_ACCESSIBILITY=1;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_LIVE_CODING=1;WITH_XGE_CONTROLLER=1;UBT_MODULE_MANIFEST="UE4Editor.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UE4Editor-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Editor;UE_APP_NAME="UE4Editor";NDIS_MINIPORT_MAJOR_VERSION=0;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;OVERRIDE_PLATFORM_HEADER_NAME=Windows;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_IS_ENGINE_MODULE=0;UE_PROJECT_NAME=SkyBox;WIN10_SDK_VERSION=17763;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;UE_DEPRECATED_FORGAME=UE_DEPRECATED;SKYBOX_VTABLE=DLLEXPORT_VTABLE;SKYBOX_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_VTABLE=DLLIMPORT_VTABLE;CORE_API=;TRACELOG_VTABLE=DLLIMPORT_VTABLE;TRACELOG_API=;COREUOBJECT_VTABLE=DLLIMPORT_VTABLE;COREUOBJECT_API=;INCLUDE_CHAOS=0;WITH_PHYSX=1;WITH_CHAOS=0;WITH_CHAOS_NEEDS_TO_BE_FIXED=0;PHYSICS_INTERFACE_LLIMMEDIATE=0;PHYSICS_INTERFACE_PHYSX=1;WITH_APEX=1;WITH_APEX_CLOTHING=1;WITH_CLOTH_COLLISION_DETECTION=1;WITH_PHYSX_COOKING=1;WITH_NVCLOTH=1;WITH_CUSTOM_SQ_STRUCTURE=0;WITH_IMMEDIATE_PHYSX=0;GPUPARTICLE_LOCAL_VF_ONLY=0;ENGINE_VTABLE=DLLIMPORT_VTABLE;ENGINE_API=;APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE;APPLICATIONCORE_API=;RHI_VTABLE=DLLIMPORT_VTABLE;RHI_API=;JSON_VTABLE=DLLIMPORT_VTABLE;JSON_API=;WITH_FREETYPE=1;SLATECORE_VTABLE=DLLIMPORT_VTABLE;SLATECORE_API=;INPUTCORE_VTABLE=DLLIMPORT_VTABLE;INPUTCORE_API=;SLATE_VTABLE=DLLIMPORT_VTABLE;SLATE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_VTABLE=DLLIMPORT_VTABLE;IMAGEWRAPPER_API=;MESSAGING_VTABLE=DLLIMPORT_VTABLE;MESSAGING_API=;MESSAGINGCOMMON_VTABLE=DLLIMPORT_VTABLE;MESSAGINGCOMMON_API=;RENDERCORE_VTABLE=DLLIMPORT_VTABLE;RENDERCORE_API=;SOCKETS_PACKAGE=1;SOCKETS_VTABLE=DLLIMPORT_VTABLE;SOCKETS_API=;UTILITYSHADERS_VTABLE=DLLIMPORT_VTABLE;UTILITYSHADERS_API=;ASSETREGISTRY_VTABLE=DLLIMPORT_VTABLE;ASSETREGISTRY_API=;ENGINEMESSAGES_VTABLE=DLLIMPORT_VTABLE;ENGINEMESSAGES_API=;ENGINESETTINGS_VTABLE=DLLIMPORT_VTABLE;ENGINESETTINGS_API=;SYNTHBENCHMARK_VTABLE=DLLIMPORT_VTABLE;SYNTHBENCHMARK_API=;RENDERER_VTABLE=DLLIMPORT_VTABLE;RENDERER_API=;GAMEPLAYTAGS_VTABLE=DLLIMPORT_VTABLE;GAMEPLAYTAGS_API=;PACKETHANDLER_VTABLE=DLLIMPORT_VTABLE;PACKETHANDLER_API=;RELIABILITYHANDLERCOMPONENT_VTABLE=DLLIMPORT_VTABLE;RELIABILITYHANDLERCOMPONENT_API=;AUDIOPLATFORMCONFIGURATION_VTABLE=DLLIMPORT_VTABLE;AUDIOPLATFORMCONFIGURATION_API=;MESHDESCRIPTION_VTABLE=DLLIMPORT_VTABLE;MESHDESCRIPTION_API=;PAKFILE_VTABLE=DLLIMPORT_VTABLE;PAKFILE_API=;RSA_VTABLE=DLLIMPORT_VTABLE;RSA_API=;NETWORKREPLAYSTREAMING_VTABLE=DLLIMPORT_VTABLE;NETWORKREPLAYSTREAMING_API=;PHYSICSCORE_VTABLE=DLLIMPORT_VTABLE;PHYSICSCORE_API=;WITH_PHYSX_RELEASE=0;UE_PHYSX_SUFFIX=PROFILE;PHYSICSSQ_VTABLE=DLLIMPORT_VTABLE;PHYSICSSQ_API=;COMPILE_WITHOUT_UNREAL_SUPPORT=0;CHAOSSOLVERS_VTABLE=DLLIMPORT_VTABLE;CHAOSSOLVERS_API=;CHAOS_VTABLE=DLLIMPORT_VTABLE;CHAOS_API=;CHAOSCORE_VTABLE=DLLIMPORT_VTABLE;CHAOSCORE_API=;INTEL_ISPC=1;VORONOI_VTABLE=DLLIMPORT_VTABLE;VORONOI_API=;FIELDSYSTEMCORE_VTABLE=DLLIMPORT_VTABLE;FIELDSYSTEMCORE_API=;GEOMETRYCOLLECTIONCORE_VTABLE=DLLIMPORT_VTABLE;GEOMETRYCOLLECTIONCORE_API=;GEOMETRYCOLLECTIONSIMULATIONCORE_VTABLE=DLLIMPORT_VTABLE;GEOMETRYCOLLECTIONSIMULATIONCORE_API=;WITH_RECAST=1;UNREALED_VTABLE=DLLIMPORT_VTABLE;UNREALED_API=;BSPMODE_VTABLE=DLLIMPORT_VTABLE;BSPMODE_API=;DIRECTORYWATCHER_VTABLE=DLLIMPORT_VTABLE;DIRECTORYWATCHER_API=;DOCUMENTATION_VTABLE=DLLIMPORT_VTABLE;DOCUMENTATION_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=1;PROJECTS_VTABLE=DLLIMPORT_VTABLE;PROJECTS_API=;SANDBOXFILE_VTABLE=DLLIMPORT_VTABLE;SANDBOXFILE_API=;EDITORSTYLE_VTABLE=DLLIMPORT_VTABLE;EDITORSTYLE_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_VTABLE=DLLIMPORT_VTABLE;SOURCECONTROL_API=;UNREALEDMESSAGES_VTABLE=DLLIMPORT_VTABLE;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_VTABLE=DLLIMPORT_VTABLE;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_VTABLE=DLLIMPORT_VTABLE;BLUEPRINTGRAPH_API=;EDITORSUBSYSTEM_VTABLE=DLLIMPORT_VTABLE;EDITORSUBSYSTEM_API=;HTTP_PACKAGE=1;CURL_ENABLE_DEBUG_CALLBACK=1;CURL_ENABLE_NO_TIMEOUTS_OPTION=1;HTTP_VTABLE=DLLIMPORT_VTABLE;HTTP_API=;UNREALAUDIO_VTABLE=DLLIMPORT_VTABLE;UNREALAUDIO_API=;FUNCTIONALTESTING_VTABLE=DLLIMPORT_VTABLE;FUNCTIONALTESTING_API=;AUTOMATIONCONTROLLER_VTABLE=DLLIMPORT_VTABLE;AUTOMATIONCONTROLLER_API=;LOCALIZATION_VTABLE=DLLIMPORT_VTABLE;LOCALIZATION_API=;WITH_SNDFILE_IO=1;AUDIOEDITOR_VTABLE=DLLIMPORT_VTABLE;AUDIOEDITOR_API=;AUDIOMIXER_VTABLE=DLLIMPORT_VTABLE;AUDIOMIXER_API=;TARGETPLATFORM_VTABLE=DLLIMPORT_VTABLE;TARGETPLATFORM_API=;UELIBSAMPLERATE_VTABLE=DLLIMPORT_VTABLE;UELIBSAMPLERATE_API=;LEVELEDITOR_VTABLE=DLLIMPORT_VTABLE;LEVELEDITOR_API=;SETTINGS_VTABLE=DLLIMPORT_VTABLE;SETTINGS_API=;INTROTUTORIALS_VTABLE=DLLIMPORT_VTABLE;INTROTUTORIALS_API=;HEADMOUNTEDDISPLAY_VTABLE=DLLIMPORT_VTABLE;HEADMOUNTEDDISPLAY_API=;VREDITOR_VTABLE=DLLIMPORT_VTABLE;VREDITOR_API=;COMMONMENUEXTENSIONS_VTABLE=DLLIMPORT_VTABLE;COMMONMENUEXTENSIONS_API=;LANDSCAPE_VTABLE=DLLIMPORT_VTABLE;LANDSCAPE_API=;PROPERTYEDITOR_VTABLE=DLLIMPORT_VTABLE;PROPERTYEDITOR_API=;ACTORPICKERMODE_VTABLE=DLLIMPORT_VTABLE;ACTORPICKERMODE_API=;SCENEDEPTHPICKERMODE_VTABLE=DLLIMPORT_VTABLE;SCENEDEPTHPICKERMODE_API=;DETAILCUSTOMIZATIONS_VTABLE=DLLIMPORT_VTABLE;DETAILCUSTOMIZATIONS_API=;CLASSVIEWER_VTABLE=DLLIMPORT_VTABLE;CLASSVIEWER_API=;GRAPHEDITOR_VTABLE=DLLIMPORT_VTABLE;GRAPHEDITOR_API=;STRUCTVIEWER_VTABLE=DLLIMPORT_VTABLE;STRUCTVIEWER_API=;CONTENTBROWSER_VTABLE=DLLIMPORT_VTABLE;CONTENTBROWSER_API=;ENABLE_HTTP_FOR_NFS=1;NETWORKFILESYSTEM_VTABLE=DLLIMPORT_VTABLE;NETWORKFILESYSTEM_API=;UMG_VTABLE=DLLIMPORT_VTABLE;UMG_API=;MOVIESCENE_VTABLE=DLLIMPORT_VTABLE;MOVIESCENE_API=;TIMEMANAGEMENT_VTABLE=DLLIMPORT_VTABLE;TIMEMANAGEMENT_API=;MOVIESCENETRACKS_VTABLE=DLLIMPORT_VTABLE;MOVIESCENETRACKS_API=;ANIMATIONCORE_VTABLE=DLLIMPORT_VTABLE;ANIMATIONCORE_API=;PROPERTYPATH_VTABLE=DLLIMPORT_VTABLE;PROPERTYPATH_API=;NAVIGATIONSYSTEM_VTABLE=DLLIMPORT_VTABLE;NAVIGATIONSYSTEM_API=;GEOMETRYCOLLECTIONENGINE_VTABLE=DLLIMPORT_VTABLE;GEOMETRYCOLLECTIONENGINE_API=;UE_APEX_SUFFIX=PROFILE;APEX_UE4=1;APEX_STATICALLY_LINKED=0;WITH_APEX_LEGACY=1;FIELDSYSTEMENGINE_VTABLE=DLLIMPORT_VTABLE;FIELDSYSTEMENGINE_API=;CHAOSSOLVERENGINE_VTABLE=DLLIMPORT_VTABLE;CHAOSSOLVERENGINE_API=;FIELDSYSTEMSIMULATIONCORE_VTABLE=DLLIMPORT_VTABLE;FIELDSYSTEMSIMULATIONCORE_API=;MESHDESCRIPTIONOPERATIONS_VTABLE=DLLIMPORT_VTABLE;MESHDESCRIPTIONOPERATIONS_API=;MESHBUILDER_VTABLE=DLLIMPORT_VTABLE;MESHBUILDER_API=;MATERIALSHADERQUALITYSETTINGS_VTABLE=DLLIMPORT_VTABLE;MATERIALSHADERQUALITYSETTINGS_API=;WITH_OGGVORBIS=1;XAUDIO2_VTABLE=DLLIMPORT_VTABLE;XAUDIO2_API=;AUDIOMIXERXAUDIO2_VTABLE=DLLIMPORT_VTABLE;AUDIOMIXERXAUDIO2_API=;COLLECTIONMANAGER_VTABLE=DLLIMPORT_VTABLE;COLLECTIONMANAGER_API=;ADDCONTENTDIALOG_VTABLE=DLLIMPORT_VTABLE;ADDCONTENTDIALOG_API=;USE_EMBREE=1;MESHUTILITIES_VTABLE=DLLIMPORT_VTABLE;MESHUTILITIES_API=;MESHMERGEUTILITIES_VTABLE=DLLIMPORT_VTABLE;MESHMERGEUTILITIES_API=;HIERARCHICALLODUTILITIES_VTABLE=DLLIMPORT_VTABLE;HIERARCHICALLODUTILITIES_API=;MESHREDUCTIONINTERFACE_VTABLE=DLLIMPORT_VTABLE;MESHREDUCTIONINTERFACE_API=;ASSETTOOLS_VTABLE=DLLIMPORT_VTABLE;ASSETTOOLS_API=;KISMETCOMPILER_VTABLE=DLLIMPORT_VTABLE;KISMETCOMPILER_API=;GAMEPLAYTASKS_VTABLE=DLLIMPORT_VTABLE;GAMEPLAYTASKS_API=;WITH_GAMEPLAY_DEBUGGER=1;AIMODULE_VTABLE=DLLIMPORT_VTABLE;AIMODULE_API=;KISMET_VTABLE=DLLIMPORT_VTABLE;KISMET_API=;CLOTHINGSYSTEMRUNTIMEINTERFACE_VTABLE=DLLIMPORT_VTABLE;CLOTHINGSYSTEMRUNTIMEINTERFACE_API=;AUGMENTEDREALITY_VTABLE=DLLIMPORT_VTABLE;AUGMENTEDREALITY_API=</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);G:\UnrealEngine-4.23.1-ps\Engine\Source;..\Build\Win64\UE4Editor\Inc\SkyBox;..\..\Source;..\..\Source\SkyBox;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Algo;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Algo\Impl;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Async;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Clang;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Concepts;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Containers;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Delegates;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Features;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\FramePro;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\GenericPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\HAL;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\HAL\Allocators;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Hash;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Internationalization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Logging;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Math;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\MemPro;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Misc;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Modules;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\ProfilingDebugging;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Serialization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Serialization\Csv;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Serialization\Formatters;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Stats;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Templates;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Traits;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\UObject;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Windows;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TraceLog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public\Trace;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public\Trace\Private;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Blueprint;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Internationalization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Misc;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Serialization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Templates;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\UObject;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\AI;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\AI\Navigation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Analytics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Animation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Audio;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Curves;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\EdGraph;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Internationalization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Net;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Net\Util;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\PacketHandlers;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Performance;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Physics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Physics\Experimental;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Physics\ImmediatePhysics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\ProfilingDebugging;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Rendering;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Slate;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Subsystems;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Tests;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\VisualLogger;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\VT;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\HAL;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\Windows;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\Windows\Accessibility;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public\Dom;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public\Policies;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public\Serialization;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Animation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Application;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Brushes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Debugging;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Fonts;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Input;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Layout;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Rendering;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Sound;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Styling;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Textures;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Types;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Widgets;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Widgets\Accessibility;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Widgets\Images;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public\GenericPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public\HAL;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public\Windows;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Application;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Commands;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Docking;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Layout;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\MetaData;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Notifications;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Styling;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Text;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Views;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Accessibility;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Colors;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Docking;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Images;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Input;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Layout;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Text;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Views;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Messaging\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Messaging;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MessagingCommon\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MessagingCommon;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RenderCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RenderCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RenderCore\Public\ProfilingDebugging;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Sockets\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Sockets;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UtilityShaders;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UtilityShaders\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UtilityShaders;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AssetRegistry\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AssetRegistry;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineMessages\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineMessages;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineSettings\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineSettings\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineSettings;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SynthBenchmark\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SynthBenchmark;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Renderer\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Renderer;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTags\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTags\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTags;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\PacketHandler;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioPlatformConfiguration\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioPlatformConfiguration;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MeshDescription\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MeshDescription;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PakFile;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PakFile\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PakFile;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RSA;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RSA\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RSA;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkReplayStreaming;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsSQ;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsSQ\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsSQ;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers\Public\Framework;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers\Public\SolverObjects;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Chaos;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Framework;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosCore\Public\Chaos;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Voronoi;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Voronoi\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Voronoi;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Voronoi\Public\Voronoi;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public\Field;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionCore\Public\GeometryCollection;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore\Public\GeometryCollection;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\UnrealLightmass\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Android\AndroidDeviceDetection\Public\Interfaces;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\AutoReimport;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Bookmarks;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Commandlets;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Dialogs;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Features;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Kismet2;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Layers;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Settings;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Subsystems;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Tests;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Toolkits;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BspMode\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BspMode;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\DirectoryWatcher\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\DirectoryWatcher;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Documentation\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Documentation;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public\Interfaces;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SandboxFile\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SandboxFile;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public\Interfaces;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl\Public\Tests;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEdMessages\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEdMessages\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEdMessages;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\GameplayDebugger\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\GameplayDebugger;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BlueprintGraph\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BlueprintGraph\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BlueprintGraph;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorSubsystem\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorSubsystem;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public\Windows;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UnrealAudio\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UnrealAudio;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\FunctionalTesting\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\FunctionalTesting\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\FunctionalTesting;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AutomationController\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AutomationController;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Localization\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Localization;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Localization\Public\Serialization;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\Components;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\DSP;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\DSP\Encoders;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\SoundFileIO;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TargetPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform\Public\Common;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform\Public\Interfaces;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\libSampleRate\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\libSampleRate;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\LevelEditor\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\LevelEditor;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Settings\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Settings;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\IntroTutorials\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\IntroTutorials;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\HeadMountedDisplay\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\HeadMountedDisplay;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\VREditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\VREditor\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\CommonMenuExtensions\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\CommonMenuExtensions;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Landscape\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Landscape\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Landscape;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\PropertyEditor\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\PropertyEditor;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ActorPickerMode\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ActorPickerMode;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\SceneDepthPickerMode\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\SceneDepthPickerMode;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\DetailCustomizations\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\DetailCustomizations;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\DetailCustomizations\Public\Customizations;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ClassViewer\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ClassViewer;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public\DragAndDrop;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public\KismetNodes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public\KismetPins;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StructViewer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\StructViewer\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\StructViewer;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ContentBrowser\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ContentBrowser;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkFileSystem\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkFileSystem;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Animation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Binding;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Blueprint;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Components;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Editor;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Slate;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Channels;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Compilation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Evaluation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Generators;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Sections;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Tracks;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TimeManagement\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TimeManagement;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TimeManagement\Public\Widgets;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Channels;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Sections;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AnimationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AnimationCore;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PropertyPath\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PropertyPath;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavAreas;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavFilters;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavGraph;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavMesh;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionEngine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionEngine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public\GeometryCollection;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemEngine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public\Field;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolverEngine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolverEngine;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public\Chaos;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemSimulationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemSimulationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemSimulationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemSimulationCore\Public\Field;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescriptionOperations;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshDescriptionOperations\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshDescriptionOperations;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshBuilder\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshBuilder;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MaterialShaderQualitySettings;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows\XAudio2\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows\XAudio2;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows\AudioMixerXAudio2;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\CollectionManager\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\CollectionManager;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AddContentDialog\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AddContentDialog;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshUtilities\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshUtilities;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshMergeUtilities\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshMergeUtilities;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\HierarchicalLODUtilities\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\HierarchicalLODUtilities;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshReductionInterface\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshReductionInterface;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AssetTools\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AssetTools;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AssetTools\Public\AssetTypeActions;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\KismetCompiler\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\KismetCompiler;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTasks\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTasks\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTasks;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AIModule\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AIModule\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AIModule;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Public\Nodes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ClothingSystemRuntimeInterface;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AugmentedReality\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AugmentedReality;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;G:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);I:\UnrealEngine-4.23.1-ps\Engine\Source;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\OpenSSL\1.1.1\include\Win64\VS2015;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\zlib\v1.2.8\include\Win32\VS2015;..\Build\Win64\UE4Editor\Inc\SkyBox;..\..\Source;D:\grpc_sdk\win64_ue423\include;..\..\Source\SkyBox;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Algo;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Algo\Impl;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Async;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Clang;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Concepts;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Containers;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Delegates;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Features;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\FramePro;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\GenericPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\HAL;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\HAL\Allocators;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Hash;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Internationalization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Logging;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Math;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\MemPro;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Misc;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Modules;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\ProfilingDebugging;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Serialization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Serialization\Csv;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Serialization\Formatters;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Stats;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Templates;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Traits;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\UObject;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public\Windows;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TraceLog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public\Trace;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public\Trace\Private;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Blueprint;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Internationalization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Misc;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Serialization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\Templates;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public\UObject;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\AI;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\AI\Navigation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Analytics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Animation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Audio;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Curves;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\EdGraph;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Internationalization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Net;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Net\Util;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\PacketHandlers;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Performance;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Physics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Physics\Experimental;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Physics\ImmediatePhysics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\ProfilingDebugging;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Rendering;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Slate;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Subsystems;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\Tests;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\VisualLogger;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Engine\Public\VT;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\HAL;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\Windows;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public\Windows\Accessibility;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public\Dom;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public\Policies;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public\Serialization;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Animation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Application;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Brushes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Debugging;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Fonts;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Input;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Layout;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Rendering;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Sound;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Styling;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Textures;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Types;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Widgets;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Widgets\Accessibility;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public\Widgets\Images;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public\GenericPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public\HAL;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public\Windows;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Application;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Commands;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Docking;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Layout;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\MetaData;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Notifications;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Styling;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Text;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Framework\Views;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Accessibility;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Colors;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Docking;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Images;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Input;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Layout;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Text;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public\Widgets\Views;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Messaging\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Messaging;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MessagingCommon\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MessagingCommon;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RenderCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RenderCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RenderCore\Public\ProfilingDebugging;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Sockets\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Sockets;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UtilityShaders;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UtilityShaders\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UtilityShaders;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AssetRegistry\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AssetRegistry;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineMessages\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineMessages;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineSettings\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineSettings\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\EngineSettings;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SynthBenchmark\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SynthBenchmark;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Renderer\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Renderer;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTags\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTags\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTags;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\PacketHandler;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioPlatformConfiguration\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioPlatformConfiguration;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MeshDescription\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MeshDescription;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PakFile;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PakFile\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PakFile;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RSA;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RSA\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RSA;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkReplayStreaming;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsCore;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsSQ;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsSQ\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PhysicsSQ;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers\Public\Framework;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolvers\Public\SolverObjects;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Chaos;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Framework;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosCore\Public\Chaos;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Voronoi;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Voronoi\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Voronoi;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\Voronoi\Public\Voronoi;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public\Field;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionCore\Public\GeometryCollection;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore\Public\GeometryCollection;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\UnrealLightmass\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Android\AndroidDeviceDetection\Public\Interfaces;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\AutoReimport;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Bookmarks;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Commandlets;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Dialogs;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Features;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Kismet2;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Layers;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Settings;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Subsystems;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Tests;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEd\Public\Toolkits;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BspMode\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BspMode;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\DirectoryWatcher\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\DirectoryWatcher;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Documentation\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Documentation;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public\Interfaces;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SandboxFile\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SandboxFile;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorStyle\Public\Interfaces;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl\Public\Tests;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEdMessages\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEdMessages\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\UnrealEdMessages;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\GameplayDebugger\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\GameplayDebugger;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BlueprintGraph\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BlueprintGraph\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\BlueprintGraph;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorSubsystem\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\EditorSubsystem;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public\Windows;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UnrealAudio\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UnrealAudio;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\FunctionalTesting\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\FunctionalTesting\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\FunctionalTesting;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AutomationController\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AutomationController;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Localization\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Localization;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Localization\Public\Serialization;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\Components;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\DSP;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\DSP\Encoders;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AudioMixer\Public\SoundFileIO;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TargetPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform\Public\Common;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\TargetPlatform\Public\Interfaces;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\libSampleRate\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\libSampleRate;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\LevelEditor\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\LevelEditor;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Settings\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\Settings;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\IntroTutorials\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\IntroTutorials;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\HeadMountedDisplay\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\HeadMountedDisplay;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\VREditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\VREditor\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\CommonMenuExtensions\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\CommonMenuExtensions;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Landscape\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Landscape\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Landscape;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\PropertyEditor\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\PropertyEditor;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ActorPickerMode\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ActorPickerMode;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\SceneDepthPickerMode\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\SceneDepthPickerMode;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\DetailCustomizations\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\DetailCustomizations;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\DetailCustomizations\Public\Customizations;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ClassViewer\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ClassViewer;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public\DragAndDrop;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public\KismetNodes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\GraphEditor\Public\KismetPins;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StructViewer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\StructViewer\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\StructViewer;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ContentBrowser\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\ContentBrowser;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkFileSystem\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NetworkFileSystem;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Animation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Binding;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Blueprint;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Components;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Editor;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\UMG\Public\Slate;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Channels;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Compilation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Evaluation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Generators;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Sections;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieScene\Public\Tracks;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TimeManagement\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TimeManagement;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TimeManagement\Public\Widgets;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Channels;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Sections;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AnimationCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AnimationCore;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PropertyPath\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PropertyPath;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavAreas;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavFilters;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavGraph;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\NavigationSystem\Public\NavMesh;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionEngine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionEngine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public\GeometryCollection;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemEngine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public\Field;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolverEngine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolverEngine;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public\Chaos;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemSimulationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemSimulationCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemSimulationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemSimulationCore\Public\Field;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescriptionOperations;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshDescriptionOperations\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshDescriptionOperations;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshBuilder\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshBuilder;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\MaterialShaderQualitySettings;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows\XAudio2\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows\XAudio2;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Windows\AudioMixerXAudio2;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\CollectionManager\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\CollectionManager;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AddContentDialog\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\AddContentDialog;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshUtilities\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshUtilities;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshMergeUtilities\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshMergeUtilities;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\HierarchicalLODUtilities\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\HierarchicalLODUtilities;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshReductionInterface\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MeshReductionInterface;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AssetTools\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AssetTools;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\AssetTools\Public\AssetTypeActions;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\KismetCompiler\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\KismetCompiler;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTasks\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTasks\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\GameplayTasks;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AIModule\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AIModule\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AIModule;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Public\Nodes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ClothingSystemRuntimeInterface;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AugmentedReality\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\AugmentedReality;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;I:\UnrealEngine-4.23.1-ps\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
   </PropertyGroup>

@@ -13,16 +13,23 @@ void SkyBoxServiceImpl::RunServer()
     grpc::reflection::InitProtoReflectionServerBuilderPlugin();
     grpc::ServerBuilder builder;
     builder.AddListeningPort(server_address, grpc::InsecureServerCredentials());
+    SkyBoxServiceImpl::Instance()->AddTestJob();  //测试
     builder.RegisterService(SkyBoxServiceImpl::Instance());
-    ms_instance->m_grpc_server = builder.BuildAndStart();
+    SkyBoxServiceImpl::Instance()->m_grpc_server = builder.BuildAndStart();
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！RPC Server listening on %s"), server_address.c_str());
-    ms_instance->m_grpc_server->Wait();
+    SkyBoxServiceImpl::Instance()->m_grpc_server->Wait();
 }
 
 void SkyBoxServiceImpl::ShutDownServer()
 {
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！SkyBoxServiceImpl::ShutDownServer()"));
-    ms_instance->m_grpc_server->Shutdown();
+    if (ms_instance != NULL)
+    {
+        ms_instance->m_grpc_server->Shutdown();
+        ms_instance->m_jobs_completed.clear();  //测试
+        ms_instance->m_key2jobs_completed.clear();  //测试
+        ms_instance->m_id2jobs_completed.clear();  //测试
+    }
     //grpc::Server::Shutdown();
     //grpc::CompletionQueue::Shutdown();
 }
@@ -37,26 +44,36 @@ SkyBoxServiceImpl* SkyBoxServiceImpl::Instance()
 SkyBoxServiceImpl::SkyBoxServiceImpl()
 {
     m_next_job_id = 1;
-    //TEST
+}
+
+SkyBoxServiceImpl::~SkyBoxServiceImpl()
+{
+}
+
+void SkyBoxServiceImpl::AddTestJob()
+{
     FScopeLock lock(&m_lock);
 
-    SkyBoxPosition key1;
-    key1.scene_id = 0;
-    key1.x = -351.0f;
-    key1.y = -99.0f;
-    key1.z = 235.0f;
-    CreateNewJob(&key1);
+    //SkyBoxPosition key1;
+    //key1.scene_id = 0;
+    //key1.x = -351.0f;
+    //key1.y = -99.0f;
+    //key1.z = 235.0f;
+    //CreateNewJob(&key1);
 
     SkyBoxPosition key2;
     key2.scene_id = 0;
     key2.x = 329.0f;
     key2.y = -359.0f;
-    key2.z = 235.0f;
+    key2.z = 1000.0f;
     CreateNewJob(&key2);
-}
 
-SkyBoxServiceImpl::~SkyBoxServiceImpl()
-{
+    SkyBoxPosition key3;
+    key3.scene_id = 0;
+    key3.x = 100.0f;
+    key3.y = 0.0f;
+    key3.z = 110.0f;
+    CreateNewJob(&key3);
 }
 
 grpc::Status SkyBoxServiceImpl::SayHello(grpc::ServerContext* context, const skybox::HelloRequest* request, skybox::HelloReply* reply)

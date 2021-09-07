@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A0C55A6C-E9BF-43AA-BB67-F4E13BFDF7C8}</ProjectGuid>
+    <ProjectGuid>{4BFCF5F0-2A4E-455E-86CE-A96B7EFAD94B}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealWatchdog</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -85,16 +85,16 @@
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
     <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -108,10 +108,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\UnrealWatchdog-Win32-Debug.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\UnrealWatchdog-Win32-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -125,10 +125,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UnrealWatchdog-Win64-Debug.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UnrealWatchdog-Win64-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -142,10 +142,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\UnrealWatchdog-Win32-Development.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\UnrealWatchdog-Win32-Development.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -159,10 +159,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UnrealWatchdog-Win64-Development.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UnrealWatchdog-Win64-Development.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -176,10 +176,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\UnrealWatchdog.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win32 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win32 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win32 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\UnrealWatchdog.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -193,10 +193,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UnrealWatchdog.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat UnrealWatchdog Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat UnrealWatchdog Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat UnrealWatchdog Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\UnrealWatchdog.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs"/>
@@ -211,7 +211,7 @@
   </ItemGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ENABLE_PGO_PROFILE=0;USE_VORBIS_FOR_STREAMING=1;USE_XMA2_FOR_STREAMING=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_APPLICATION_CORE=1;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_ACCESSIBILITY=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;WITH_EDITOR=0;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_LIVE_CODING=0;WITH_XGE_CONTROLLER=0;UBT_MODULE_MANIFEST="UnrealWatchdog.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UnrealWatchdog-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;UE_APP_NAME="UnrealWatchdog";NDIS_MINIPORT_MAJOR_VERSION=0;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;OVERRIDE_PLATFORM_HEADER_NAME=Windows;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_IS_ENGINE_MODULE=0;WIN10_SDK_VERSION=17763;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;UE_DEPRECATED_FORGAME=UE_DEPRECATED;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_VTABLE=;CORE_API=;TRACELOG_VTABLE=;TRACELOG_API=;ANALYTICS_VTABLE=;ANALYTICS_API=;ANALYTICSET_VTABLE=;ANALYTICSET_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_VTABLE=;PROJECTS_API=;JSON_VTABLE=;JSON_API=;APPLICATIONCORE_VTABLE=;APPLICATIONCORE_API=;RHI_VTABLE=;RHI_API=;UNREALWATCHDOG_VTABLE=;UNREALWATCHDOG_API=</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);G:\UnrealEngine-4.23.1-ps\Engine\Source;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Private;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\UnrealWatchdog\Private;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Core;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\TraceLog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Analytics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\Analytics\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\AnalyticsET;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\AnalyticsET\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Projects;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Json;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\ApplicationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\RHI;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\UnrealWatchdog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);I:\UnrealEngine-4.23.1-ps\Engine\Source;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Private;I:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\UnrealWatchdog\Private;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Core;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\TraceLog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Analytics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\Analytics\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\AnalyticsET;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\AnalyticsET\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Projects;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\Json;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\ApplicationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\RHI;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\UnrealWatchdog\Inc\UnrealWatchdog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Programs;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
   </PropertyGroup>

@@ -59,7 +59,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5AAF97F1-C458-47C0-BF94-5BD1B6F82047}</ProjectGuid>
+    <ProjectGuid>{4D559F56-4E2E-4DE4-B78A-F8BF955DA5C1}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>CrashReportClient</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -133,16 +133,16 @@
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
     <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
     <NMakeOutput>Invalid Output</NMakeOutput>
-    <OutDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
-    <IntDir>G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
+    <OutDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Unused\</IntDir>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -156,10 +156,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\CrashReportClient-Win32-Debug.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\CrashReportClient-Win32-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -173,10 +173,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\CrashReportClient-Win64-Debug.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\CrashReportClient-Win64-Debug.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -190,10 +190,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\CrashReportClient-Mac-Debug</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\CrashReportClient-Mac-Debug</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -207,10 +207,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\CrashReportClient-Win32-Development.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\CrashReportClient-Win32-Development.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -224,10 +224,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\CrashReportClient-Win64-Development.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\CrashReportClient-Win64-Development.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -241,10 +241,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\CrashReportClient-Mac-Development</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\CrashReportClient-Mac-Development</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -258,10 +258,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\CrashReportClient.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win32\CrashReportClient.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -275,10 +275,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\CrashReportClient.exe</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Win64\CrashReportClient.exe</NMakeOutput>
   </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -292,10 +292,10 @@
     <ExcludePath />
     <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
     <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>G:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>G:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\CrashReportClient</NMakeOutput>
+    <NMakeBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>I:\UnrealEngine-4.23.1-ps\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>I:\UnrealEngine-4.23.1-ps\Engine\Binaries\Mac\CrashReportClient</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs"/>
@@ -318,7 +318,7 @@
   </ItemGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;NOINITCRASHREPORTER=1;ENABLE_PGO_PROFILE=0;USE_VORBIS_FOR_STREAMING=1;USE_XMA2_FOR_STREAMING=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_APPLICATION_CORE=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_ACCESSIBILITY=1;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_LIVE_CODING=0;WITH_XGE_CONTROLLER=0;UBT_MODULE_MANIFEST="CrashReportClient.modules";UBT_MODULE_MANIFEST_DEBUGGAME="CrashReportClient-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;UE_APP_NAME="CrashReportClient";NDIS_MINIPORT_MAJOR_VERSION=0;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;OVERRIDE_PLATFORM_HEADER_NAME=Windows;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_IS_ENGINE_MODULE=0;WIN10_SDK_VERSION=17763;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;UE_DEPRECATED_FORGAME=UE_DEPRECATED;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_VTABLE=;CORE_API=;TRACELOG_VTABLE=;TRACELOG_API=;COREUOBJECT_VTABLE=;COREUOBJECT_API=;APPLICATIONCORE_VTABLE=;APPLICATIONCORE_API=;RHI_VTABLE=;RHI_API=;CRASHDEBUGHELPER_VTABLE=;CRASHDEBUGHELPER_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_VTABLE=;SOURCECONTROL_API=;INPUTCORE_VTABLE=;INPUTCORE_API=;WITH_CRASHREPORTER=1;CRASHREPORTCORE_VTABLE=;CRASHREPORTCORE_API=;XMLPARSER_VTABLE=;XMLPARSER_API=;ANALYTICS_VTABLE=;ANALYTICS_API=;ANALYTICSET_VTABLE=;ANALYTICSET_API=;HTTP_PACKAGE=1;CURL_ENABLE_DEBUG_CALLBACK=1;CURL_ENABLE_NO_TIMEOUTS_OPTION=1;HTTP_VTABLE=;HTTP_API=;JSON_VTABLE=;JSON_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_VTABLE=;PROJECTS_API=;PAKFILE_VTABLE=;PAKFILE_API=;RSA_VTABLE=;RSA_API=;DESKTOPPLATFORM_VTABLE=;DESKTOPPLATFORM_API=;LAUNCHERPLATFORM_VTABLE=;LAUNCHERPLATFORM_API=;SLATE_VTABLE=;SLATE_API=;WITH_FREETYPE=1;SLATECORE_VTABLE=;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_VTABLE=;IMAGEWRAPPER_API=;STANDALONERENDERER_VTABLE=;STANDALONERENDERER_API=;MESSAGELOG_VTABLE=;MESSAGELOG_API=;SLATE_REFLECTOR_HAS_SESSION_SERVICES=0;SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1;SLATEREFLECTOR_VTABLE=;SLATEREFLECTOR_API=;CRASHREPORTCLIENT_VTABLE=;CRASHREPORTCLIENT_API=</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);G:\UnrealEngine-4.23.1-ps\Engine\Source;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Private;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\CrashReportClient\Private;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Core;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\TraceLog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CoreUObject;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\ApplicationCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\RHI;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashDebugHelper;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\CrashDebugHelper\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SourceControl;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\InputCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Classes;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashReportCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CrashReportCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\XmlParser;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\XmlParser\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Analytics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\Analytics\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\AnalyticsET;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\AnalyticsET\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\HTTP;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Json;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Projects;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\PakFile;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PakFile\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\RSA;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RSA\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\DesktopPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\DesktopPlatform\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\LauncherPlatform;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Portal;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Portal\LauncherPlatform\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Slate;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateCore;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\ImageWrapper;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\StandaloneRenderer;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\StandaloneRenderer\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\MessageLog;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MessageLog\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateReflector;G:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SlateReflector\Public;G:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashReportClient;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs;G:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Public;G:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\CrashReportClient\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);I:\UnrealEngine-4.23.1-ps\Engine\Source;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Private;I:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\CrashReportClient\Private;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Core;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Core\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\TraceLog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\TraceLog\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CoreUObject;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CoreUObject\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\ApplicationCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ApplicationCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\RHI;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RHI\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashDebugHelper;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\CrashDebugHelper\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SourceControl;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SourceControl\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\InputCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Classes;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\InputCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashReportCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\CrashReportCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\XmlParser;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\XmlParser\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Analytics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\Analytics\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\AnalyticsET;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Analytics\AnalyticsET\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\HTTP;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Online\HTTP\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Json;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Json\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Projects;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Projects\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\PakFile;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\PakFile\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\RSA;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\RSA\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\DesktopPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\DesktopPlatform\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\LauncherPlatform;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Portal;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Portal\LauncherPlatform\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Slate;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Slate\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateCore;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\SlateCore\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\ImageWrapper;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\ImageWrapper\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\StandaloneRenderer;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\StandaloneRenderer\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\MessageLog;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\MessageLog\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateReflector;I:\UnrealEngine-4.23.1-ps\Engine\Source\Developer\SlateReflector\Public;I:\UnrealEngine-4.23.1-ps\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashReportClient;I:\UnrealEngine-4.23.1-ps\Engine\Source\Programs;I:\UnrealEngine-4.23.1-ps\Engine\Source\Runtime\Launch\Public;I:\UnrealEngine-4.23.1-ps\Engine\Source\Programs\CrashReportClient\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;;</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
   </PropertyGroup>

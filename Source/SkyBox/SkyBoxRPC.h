@@ -36,6 +36,7 @@ private:
     std::unique_ptr<grpc::Server> m_grpc_server;
 public:
     ~SkyBoxServiceImpl();
+    void AddTestJob();
     grpc::Status SayHello(grpc::ServerContext* context, const skybox::HelloRequest* request, skybox::HelloReply* reply) override;
     grpc::Status GenerateSkyBox(grpc::ServerContext* context, const skybox::GenerateSkyBoxRequest* request, skybox::GenerateSkyBoxReply* reply) override;
     grpc::Status QueryJob(grpc::ServerContext* context, const skybox::QueryJobRequest* request, skybox::QueryJobReply* reply) override;

@@ -17,6 +17,7 @@
 #include <SlateApplication.h>
 #include <ImageUtils.h>
 #include <FileHelper.h>
+#include "UnrealClient.h"
 #include "SkyBoxRPC.h"
 #include "SkyBoxWorker.h"
 
@@ -134,13 +135,14 @@ void ASkyBoxCharacter::BeginPlay()
     m_capture_camera = GetWorld()->SpawnActor<ACameraActor>(GetActorLocation(), GetActorRotation());
     UCameraComponent* camera_component = m_capture_camera->GetCameraComponent();
     camera_component->bUsePawnControlRotation = false;  //如果这个是true，就不能旋转Actor；若不能YAW旋转，蓝图打开actor，取消“用控制器旋转Yaw”的打勾
-    //camera_component->SetFieldOfView(90.0f);  //在编辑器里指定
+    camera_component->SetFieldOfView(120.0f);  //在编辑器里指定
     camera_component->SetAspectRatio(1.0f);
     camera_component->SetConstraintAspectRatio(true);
 
     APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
     OurPlayerController->SetViewTarget(m_capture_camera);
     FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().AddUObject(this, &ASkyBoxCharacter::OnBackBufferReady_RenderThread);
+    FScreenshotRequest::OnScreenshotRequestProcessed().AddUObject(this, &ASkyBoxCharacter::OnScreenshotProcessed_RenderThread);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -343,11 +345,7 @@ ASkyBoxCharacter::~ASkyBoxCharacter()
 {
     // ZZW
     UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！ASkyBoxCharacter::~ASkyBoxCharacter"));
-    if (m_capture_camera != NULL)
-    {
-        m_capture_camera->Destroy();
-        m_capture_camera = NULL;
-    }
+    m_capture_camera = NULL;
     SkyBoxWorker::Shutdown();
     //FSlateApplication::Get().GetRenderer()->OnBackBufferReadyToPresent().RemoveAll(this);
 }
@@ -355,6 +353,8 @@ ASkyBoxCharacter::~ASkyBoxCharacter()
 void ASkyBoxCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
+    if (m_capture_camera == NULL)
+        return;
 
     FScopeLock lock(&m_lock);
     
@@ -377,13 +377,14 @@ void ASkyBoxCharacter::Tick(float DeltaSeconds)
     {
         //m_CurrentState = CaptureState::Prepared;
 
-        //m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\SkyBox(%dX%d)_Scene%d_(%.1f，%.1f，%.1f)_%d.png"),
-        //    m_BackBufferSizeX, m_BackBufferSizeY, m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
-        //FString cmd = FString::Printf(TEXT("HighResShot 2048x2048 filename=\"%s\""), *m_BackBufferFilePath);
+        m_BackBufferFilePath = FString::Printf(TEXT("I:/UE4Workspace/png/SkyBox(%dX%d)_Scene%d_(%.1f，%.1f，%.1f)_%d.png"),
+            m_BackBufferSizeX, m_BackBufferSizeY, m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
 
-        FString cmd = TEXT("HighResShot 2048x2048");
+        FString cmd = FString::Printf(TEXT("HighResShot 2048x2048 filename=\"%s\""), *m_BackBufferFilePath);
+        UE_LOG(LogTemp, Warning, TEXT("！！！！！！！！！！%s"), *cmd);
+
         GEngine->Exec(GetWorld(), *cmd);
-        m_CurrentState = CaptureState::Saved;
+        //m_CurrentState = CaptureState::Saved;
         return;
     }
     if (m_CurrentState == CaptureState::Captured)
@@ -438,6 +439,12 @@ void ASkyBoxCharacter::OnBackBufferReady_RenderThread(SWindow& SlateWindow, cons
     CaptureBackBufferToPNG(BackBuffer);
 }
 
+void ASkyBoxCharacter::OnScreenshotProcessed_RenderThread()
+{
+    FScopeLock lock(&m_lock);
+    m_CurrentState = CaptureState::Saved;
+}
+
 void ASkyBoxCharacter::CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer)
 {
     FScopeLock lock(&m_lock);
@@ -458,9 +465,9 @@ void ASkyBoxCharacter::CaptureBackBufferToPNG(const FTexture2DRHIRef& BackBuffer
     m_BackBufferSizeY = BackBuffer->GetSizeY();
 
     FDateTime Time = FDateTime::Now();
-    /*m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\BACK(%dX%d)_%d__%04d-%02d-%02d_%02d-%02d-%02d_%d.png"),
+    /*m_BackBufferFilePath = FString::Printf(TEXT("I:\\UE4Workspace\\png\\BACK(%dX%d)_%d__%04d-%02d-%02d_%02d-%02d-%02d_%d.png"),
         m_BackBufferSizeX, m_BackBufferSizeY, m_CurrentDirection, Time.GetYear(), Time.GetMonth(), Time.GetDay(), Time.GetHour(), Time.GetMinute(), Time.GetSecond(), Time.GetMillisecond());*/
-    m_BackBufferFilePath = FString::Printf(TEXT("G:\\UE4Workspace\\png\\SkyBox(%dX%d)_Scene%d_(%.1f，%.1f，%.1f)_%d.png"),
+    m_BackBufferFilePath = FString::Printf(TEXT("I:\\UE4Workspace\\png\\SkyBox(%dX%d)_Scene%d_(%.1f，%.1f，%.1f)_%d.png"),
         m_BackBufferSizeX, m_BackBufferSizeY, m_current_job->m_position.scene_id, m_current_job->m_position.x, m_current_job->m_position.y, m_current_job->m_position.z, m_CurrentDirection);
     m_CurrentState = CaptureState::Captured;
 }

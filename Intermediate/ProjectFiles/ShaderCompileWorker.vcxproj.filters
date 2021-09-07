@@ -3,20 +3,20 @@
   <ItemGroup>
     <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A28BBEDA-E0EF-40E9-81BD-D4045D406005}</UniqueIdentifier>
+      <UniqueIdentifier>{8F78A996-05E9-402B-8897-1FE944929924}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{9EB4C394-0348-484C-8B6D-AB455B92B982}</UniqueIdentifier>
+      <UniqueIdentifier>{21C274DF-AC13-4DA6-B78A-2FFEE88F6FCC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <None Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{0E339141-171D-41D0-9C38-CC16F7104C8C}</UniqueIdentifier>
+      <UniqueIdentifier>{A0B972DB-BAD0-4DFE-BECD-D9E64E6F002A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealEngine-4.23.1-ps\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
       <Filter>Private</Filter>
